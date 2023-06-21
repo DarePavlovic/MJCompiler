@@ -1,36 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class FactorDerived1 extends Factor {
 
-    private Designator Designator;
-    private ParenActPars ParenActPars;
+    private Integer N1;
 
-    public FactorDerived1 (Designator Designator, ParenActPars ParenActPars) {
-        this.Designator=Designator;
-        if(Designator!=null) Designator.setParent(this);
-        this.ParenActPars=ParenActPars;
-        if(ParenActPars!=null) ParenActPars.setParent(this);
+    public FactorDerived1 (Integer N1) {
+        this.N1=N1;
     }
 
-    public Designator getDesignator() {
-        return Designator;
+    public Integer getN1() {
+        return N1;
     }
 
-    public void setDesignator(Designator Designator) {
-        this.Designator=Designator;
-    }
-
-    public ParenActPars getParenActPars() {
-        return ParenActPars;
-    }
-
-    public void setParenActPars(ParenActPars ParenActPars) {
-        this.ParenActPars=ParenActPars;
+    public void setN1(Integer N1) {
+        this.N1=N1;
     }
 
     public void accept(Visitor visitor) {
@@ -38,19 +26,13 @@ public class FactorDerived1 extends Factor {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Designator!=null) Designator.accept(visitor);
-        if(ParenActPars!=null) ParenActPars.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Designator!=null) Designator.traverseTopDown(visitor);
-        if(ParenActPars!=null) ParenActPars.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Designator!=null) Designator.traverseBottomUp(visitor);
-        if(ParenActPars!=null) ParenActPars.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -59,16 +41,7 @@ public class FactorDerived1 extends Factor {
         buffer.append(tab);
         buffer.append("FactorDerived1(\n");
 
-        if(Designator!=null)
-            buffer.append(Designator.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        if(ParenActPars!=null)
-            buffer.append(ParenActPars.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
+        buffer.append(" "+tab+N1);
         buffer.append("\n");
 
         buffer.append(tab);

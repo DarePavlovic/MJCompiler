@@ -1,0 +1,8 @@
+INFO  13:00:27,681 - Compiling source file: C:\RTI\PP\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:00:27,685 - #2 program
+INFO  13:00:27,685 - #22 mojProgram
+INFO  13:00:27,686 - ProgramDerived1(
+) [ProgramDerived1]
+INFO  13:00:27,686 - ===================================
+INFO  13:00:27,687 -  Print count calls = 0
+INFO  13:00:27,687 -  Deklarisanih promenljivih ima = 0

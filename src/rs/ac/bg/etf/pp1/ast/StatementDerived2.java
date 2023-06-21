@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -10,15 +10,17 @@ public class StatementDerived2 extends Statement {
     private Designator Designator;
     private Assignop Assignop;
     private Designator Designator1;
+    private String I4;
     private Expr Expr;
 
-    public StatementDerived2 (Designator Designator, Assignop Assignop, Designator Designator1, Expr Expr) {
+    public StatementDerived2 (Designator Designator, Assignop Assignop, Designator Designator1, String I4, Expr Expr) {
         this.Designator=Designator;
         if(Designator!=null) Designator.setParent(this);
         this.Assignop=Assignop;
         if(Assignop!=null) Assignop.setParent(this);
         this.Designator1=Designator1;
         if(Designator1!=null) Designator1.setParent(this);
+        this.I4=I4;
         this.Expr=Expr;
         if(Expr!=null) Expr.setParent(this);
     }
@@ -45,6 +47,14 @@ public class StatementDerived2 extends Statement {
 
     public void setDesignator1(Designator Designator1) {
         this.Designator1=Designator1;
+    }
+
+    public String getI4() {
+        return I4;
+    }
+
+    public void setI4(String I4) {
+        this.I4=I4;
     }
 
     public Expr getExpr() {
@@ -103,6 +113,9 @@ public class StatementDerived2 extends Statement {
             buffer.append(Designator1.toString("  "+tab));
         else
             buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(" "+tab+I4);
         buffer.append("\n");
 
         if(Expr!=null)

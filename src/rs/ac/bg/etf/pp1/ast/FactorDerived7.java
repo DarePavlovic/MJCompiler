@@ -1,36 +1,36 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class FactorDerived7 extends Factor {
 
-    private Type Type;
-    private Expr Expr;
+    private Designator Designator;
+    private ParenActPars ParenActPars;
 
-    public FactorDerived7 (Type Type, Expr Expr) {
-        this.Type=Type;
-        if(Type!=null) Type.setParent(this);
-        this.Expr=Expr;
-        if(Expr!=null) Expr.setParent(this);
+    public FactorDerived7 (Designator Designator, ParenActPars ParenActPars) {
+        this.Designator=Designator;
+        if(Designator!=null) Designator.setParent(this);
+        this.ParenActPars=ParenActPars;
+        if(ParenActPars!=null) ParenActPars.setParent(this);
     }
 
-    public Type getType() {
-        return Type;
+    public Designator getDesignator() {
+        return Designator;
     }
 
-    public void setType(Type Type) {
-        this.Type=Type;
+    public void setDesignator(Designator Designator) {
+        this.Designator=Designator;
     }
 
-    public Expr getExpr() {
-        return Expr;
+    public ParenActPars getParenActPars() {
+        return ParenActPars;
     }
 
-    public void setExpr(Expr Expr) {
-        this.Expr=Expr;
+    public void setParenActPars(ParenActPars ParenActPars) {
+        this.ParenActPars=ParenActPars;
     }
 
     public void accept(Visitor visitor) {
@@ -38,19 +38,19 @@ public class FactorDerived7 extends Factor {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Type!=null) Type.accept(visitor);
-        if(Expr!=null) Expr.accept(visitor);
+        if(Designator!=null) Designator.accept(visitor);
+        if(ParenActPars!=null) ParenActPars.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Type!=null) Type.traverseTopDown(visitor);
-        if(Expr!=null) Expr.traverseTopDown(visitor);
+        if(Designator!=null) Designator.traverseTopDown(visitor);
+        if(ParenActPars!=null) ParenActPars.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Type!=null) Type.traverseBottomUp(visitor);
-        if(Expr!=null) Expr.traverseBottomUp(visitor);
+        if(Designator!=null) Designator.traverseBottomUp(visitor);
+        if(ParenActPars!=null) ParenActPars.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -59,14 +59,14 @@ public class FactorDerived7 extends Factor {
         buffer.append(tab);
         buffer.append("FactorDerived7(\n");
 
-        if(Type!=null)
-            buffer.append(Type.toString("  "+tab));
+        if(Designator!=null)
+            buffer.append(Designator.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(Expr!=null)
-            buffer.append(Expr.toString("  "+tab));
+        if(ParenActPars!=null)
+            buffer.append(ParenActPars.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

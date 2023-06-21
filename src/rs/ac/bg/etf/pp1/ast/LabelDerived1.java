@@ -1,13 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class LabelDerived1 extends Label {
 
-    public LabelDerived1 () {
+    private String I1;
+
+    public LabelDerived1 (String I1) {
+        this.I1=I1;
+    }
+
+    public String getI1() {
+        return I1;
+    }
+
+    public void setI1(String I1) {
+        this.I1=I1;
     }
 
     public void accept(Visitor visitor) {
@@ -29,6 +40,9 @@ public class LabelDerived1 extends Label {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
         buffer.append("LabelDerived1(\n");
+
+        buffer.append(" "+tab+I1);
+        buffer.append("\n");
 
         buffer.append(tab);
         buffer.append(") [LabelDerived1]");

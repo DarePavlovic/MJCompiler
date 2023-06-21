@@ -1,13 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class TypeDerived1 extends Type {
 
-    public TypeDerived1 () {
+    private String typeName;
+
+    public TypeDerived1 (String typeName) {
+        this.typeName=typeName;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public void setTypeName(String typeName) {
+        this.typeName=typeName;
     }
 
     public void accept(Visitor visitor) {
@@ -29,6 +40,9 @@ public class TypeDerived1 extends Type {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
         buffer.append("TypeDerived1(\n");
+
+        buffer.append(" "+tab+typeName);
+        buffer.append("\n");
 
         buffer.append(tab);
         buffer.append(") [TypeDerived1]");

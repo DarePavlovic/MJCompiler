@@ -1,25 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class DesignatorDerived1 extends Designator {
 
-    private ExpList ExpList;
+    private String I1;
 
-    public DesignatorDerived1 (ExpList ExpList) {
-        this.ExpList=ExpList;
-        if(ExpList!=null) ExpList.setParent(this);
+    public DesignatorDerived1 (String I1) {
+        this.I1=I1;
     }
 
-    public ExpList getExpList() {
-        return ExpList;
+    public String getI1() {
+        return I1;
     }
 
-    public void setExpList(ExpList ExpList) {
-        this.ExpList=ExpList;
+    public void setI1(String I1) {
+        this.I1=I1;
     }
 
     public void accept(Visitor visitor) {
@@ -27,16 +26,13 @@ public class DesignatorDerived1 extends Designator {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(ExpList!=null) ExpList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(ExpList!=null) ExpList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(ExpList!=null) ExpList.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -45,10 +41,7 @@ public class DesignatorDerived1 extends Designator {
         buffer.append(tab);
         buffer.append("DesignatorDerived1(\n");
 
-        if(ExpList!=null)
-            buffer.append(ExpList.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
+        buffer.append(" "+tab+I1);
         buffer.append("\n");
 
         buffer.append(tab);

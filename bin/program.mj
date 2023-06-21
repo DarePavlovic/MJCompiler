@@ -89,7 +89,7 @@ int a, curr;
 			i++;
 		}
 		
-		niz2 = niz.map(curr => curr * 3;);
+		niz2 = niz.map(curr => curr * 3);
 		i = 0;
 		while (i < 3){
 			print(niz2[i]);

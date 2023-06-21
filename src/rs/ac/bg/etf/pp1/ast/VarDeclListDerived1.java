@@ -1,28 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class VarDeclListDerived1 extends VarDeclList {
 
-    private VarDeclList VarDeclList;
+    private Type Type;
     private VarDecl VarDecl;
 
-    public VarDeclListDerived1 (VarDeclList VarDeclList, VarDecl VarDecl) {
-        this.VarDeclList=VarDeclList;
-        if(VarDeclList!=null) VarDeclList.setParent(this);
+    public VarDeclListDerived1 (Type Type, VarDecl VarDecl) {
+        this.Type=Type;
+        if(Type!=null) Type.setParent(this);
         this.VarDecl=VarDecl;
         if(VarDecl!=null) VarDecl.setParent(this);
     }
 
-    public VarDeclList getVarDeclList() {
-        return VarDeclList;
+    public Type getType() {
+        return Type;
     }
 
-    public void setVarDeclList(VarDeclList VarDeclList) {
-        this.VarDeclList=VarDeclList;
+    public void setType(Type Type) {
+        this.Type=Type;
     }
 
     public VarDecl getVarDecl() {
@@ -38,18 +38,18 @@ public class VarDeclListDerived1 extends VarDeclList {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(VarDeclList!=null) VarDeclList.accept(visitor);
+        if(Type!=null) Type.accept(visitor);
         if(VarDecl!=null) VarDecl.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(VarDeclList!=null) VarDeclList.traverseTopDown(visitor);
+        if(Type!=null) Type.traverseTopDown(visitor);
         if(VarDecl!=null) VarDecl.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(VarDeclList!=null) VarDeclList.traverseBottomUp(visitor);
+        if(Type!=null) Type.traverseBottomUp(visitor);
         if(VarDecl!=null) VarDecl.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -59,8 +59,8 @@ public class VarDeclListDerived1 extends VarDeclList {
         buffer.append(tab);
         buffer.append("VarDeclListDerived1(\n");
 
-        if(VarDeclList!=null)
-            buffer.append(VarDeclList.toString("  "+tab));
+        if(Type!=null)
+            buffer.append(Type.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

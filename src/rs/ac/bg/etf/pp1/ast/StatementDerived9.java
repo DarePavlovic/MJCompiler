@@ -1,25 +1,36 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class StatementDerived9 extends Statement {
 
-    private Designator Designator;
+    private Expr Expr;
+    private NumConstBrack NumConstBrack;
 
-    public StatementDerived9 (Designator Designator) {
-        this.Designator=Designator;
-        if(Designator!=null) Designator.setParent(this);
+    public StatementDerived9 (Expr Expr, NumConstBrack NumConstBrack) {
+        this.Expr=Expr;
+        if(Expr!=null) Expr.setParent(this);
+        this.NumConstBrack=NumConstBrack;
+        if(NumConstBrack!=null) NumConstBrack.setParent(this);
     }
 
-    public Designator getDesignator() {
-        return Designator;
+    public Expr getExpr() {
+        return Expr;
     }
 
-    public void setDesignator(Designator Designator) {
-        this.Designator=Designator;
+    public void setExpr(Expr Expr) {
+        this.Expr=Expr;
+    }
+
+    public NumConstBrack getNumConstBrack() {
+        return NumConstBrack;
+    }
+
+    public void setNumConstBrack(NumConstBrack NumConstBrack) {
+        this.NumConstBrack=NumConstBrack;
     }
 
     public void accept(Visitor visitor) {
@@ -27,16 +38,19 @@ public class StatementDerived9 extends Statement {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Designator!=null) Designator.accept(visitor);
+        if(Expr!=null) Expr.accept(visitor);
+        if(NumConstBrack!=null) NumConstBrack.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Designator!=null) Designator.traverseTopDown(visitor);
+        if(Expr!=null) Expr.traverseTopDown(visitor);
+        if(NumConstBrack!=null) NumConstBrack.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Designator!=null) Designator.traverseBottomUp(visitor);
+        if(Expr!=null) Expr.traverseBottomUp(visitor);
+        if(NumConstBrack!=null) NumConstBrack.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -45,8 +59,14 @@ public class StatementDerived9 extends Statement {
         buffer.append(tab);
         buffer.append("StatementDerived9(\n");
 
-        if(Designator!=null)
-            buffer.append(Designator.toString("  "+tab));
+        if(Expr!=null)
+            buffer.append(Expr.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(NumConstBrack!=null)
+            buffer.append(NumConstBrack.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

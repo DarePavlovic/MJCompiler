@@ -1,28 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class ConstDeclListDerived1 extends ConstDeclList {
 
-    private ConstDeclList ConstDeclList;
+    private Type Type;
     private ConstDecl ConstDecl;
 
-    public ConstDeclListDerived1 (ConstDeclList ConstDeclList, ConstDecl ConstDecl) {
-        this.ConstDeclList=ConstDeclList;
-        if(ConstDeclList!=null) ConstDeclList.setParent(this);
+    public ConstDeclListDerived1 (Type Type, ConstDecl ConstDecl) {
+        this.Type=Type;
+        if(Type!=null) Type.setParent(this);
         this.ConstDecl=ConstDecl;
         if(ConstDecl!=null) ConstDecl.setParent(this);
     }
 
-    public ConstDeclList getConstDeclList() {
-        return ConstDeclList;
+    public Type getType() {
+        return Type;
     }
 
-    public void setConstDeclList(ConstDeclList ConstDeclList) {
-        this.ConstDeclList=ConstDeclList;
+    public void setType(Type Type) {
+        this.Type=Type;
     }
 
     public ConstDecl getConstDecl() {
@@ -38,18 +38,18 @@ public class ConstDeclListDerived1 extends ConstDeclList {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(ConstDeclList!=null) ConstDeclList.accept(visitor);
+        if(Type!=null) Type.accept(visitor);
         if(ConstDecl!=null) ConstDecl.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(ConstDeclList!=null) ConstDeclList.traverseTopDown(visitor);
+        if(Type!=null) Type.traverseTopDown(visitor);
         if(ConstDecl!=null) ConstDecl.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(ConstDeclList!=null) ConstDeclList.traverseBottomUp(visitor);
+        if(Type!=null) Type.traverseBottomUp(visitor);
         if(ConstDecl!=null) ConstDecl.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -59,8 +59,8 @@ public class ConstDeclListDerived1 extends ConstDeclList {
         buffer.append(tab);
         buffer.append("ConstDeclListDerived1(\n");
 
-        if(ConstDeclList!=null)
-            buffer.append(ConstDeclList.toString("  "+tab));
+        if(Type!=null)
+            buffer.append(Type.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

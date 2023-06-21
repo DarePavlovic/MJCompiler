@@ -1,0 +1,124 @@
+INFO  20:21:34,903 - Compiling source file: C:\RTI\PP\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:21:34,914 - #2 program
+INFO  20:21:34,914 - #44 test302
+INFO  20:21:34,914 - #6 const
+INFO  20:21:34,914 - #44 int
+INFO  20:21:34,914 - #44 jedan
+INFO  20:21:34,914 - #33 =
+INFO  20:21:34,914 - #45 1
+INFO  20:21:34,915 - #18 ;
+INFO  20:21:34,915 - #44 int
+INFO  20:21:34,915 - #44 i
+INFO  20:21:34,915 - #18 ;
+INFO  20:21:34,916 - #44 bool
+INFO  20:21:34,916 - #44 ibool
+INFO  20:21:34,916 - #18 ;
+INFO  20:21:34,916 - #44 int
+INFO  20:21:34,916 - #44 niz2
+INFO  20:21:34,916 - #38 [
+INFO  20:21:34,916 - #39 ]
+INFO  20:21:34,916 - #18 ;
+INFO  20:21:34,916 - #44 int
+INFO  20:21:34,916 - #44 niz
+INFO  20:21:34,929 - #38 [
+INFO  20:21:34,929 - #39 ]
+INFO  20:21:34,929 - #18 ;
+INFO  20:21:34,929 - #44 int
+INFO  20:21:34,929 - #44 a
+INFO  20:21:34,929 - #41 ,
+INFO  20:21:34,929 - #44 curr
+INFO  20:21:34,929 - #18 ;
+INFO  20:21:34,929 - #16 {
+INFO  20:21:34,929 - #17 }
+INFO  20:21:34,929 - ProgramDerived1(
+ test302
+  DeclListDerived1(
+    DeclListDerived1(
+      DeclListDerived1(
+        DeclListDerived1(
+          DeclListDerived1(
+            DeclListDerived2(
+              DeclListDerived3(
+              ) [DeclListDerived3]
+              ConstDeclListDerived1(
+                ConstDeclDerived1(
+                  TypeDerived1(
+                   int
+                  ) [TypeDerived1]
+                 jedan
+                  ConstLiteralDerived1(
+                   1
+                  ) [ConstLiteralDerived1]
+                ) [ConstDeclDerived1]
+              ) [ConstDeclListDerived1]
+            ) [DeclListDerived2]
+            VarDeclListDerived1(
+              TypeDerived1(
+               int
+              ) [TypeDerived1]
+              VarDeclDerived1(
+               i
+                BracketsDerived2(
+                ) [BracketsDerived2]
+              ) [VarDeclDerived1]
+            ) [VarDeclListDerived1]
+          ) [DeclListDerived1]
+          VarDeclListDerived1(
+            TypeDerived1(
+             bool
+            ) [TypeDerived1]
+            VarDeclDerived1(
+             ibool
+              BracketsDerived2(
+              ) [BracketsDerived2]
+            ) [VarDeclDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclListDerived1]
+        VarDeclListDerived1(
+          TypeDerived1(
+           int
+          ) [TypeDerived1]
+          VarDeclDerived1(
+           niz2
+            BracketsDerived1(
+              BracketsDerived2(
+              ) [BracketsDerived2]
+            ) [BracketsDerived1]
+          ) [VarDeclDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclListDerived1]
+      VarDeclListDerived1(
+        TypeDerived1(
+         int
+        ) [TypeDerived1]
+        VarDeclDerived1(
+         niz
+          BracketsDerived1(
+            BracketsDerived2(
+            ) [BracketsDerived2]
+          ) [BracketsDerived1]
+        ) [VarDeclDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclListDerived1]
+    VarDeclListDerived2(
+      VarDeclListDerived1(
+        TypeDerived1(
+         int
+        ) [TypeDerived1]
+        VarDeclDerived1(
+         a
+          BracketsDerived2(
+          ) [BracketsDerived2]
+        ) [VarDeclDerived1]
+      ) [VarDeclListDerived1]
+      VarDeclDerived1(
+       curr
+        BracketsDerived2(
+        ) [BracketsDerived2]
+      ) [VarDeclDerived1]
+    ) [VarDeclListDerived2]
+  ) [DeclListDerived1]
+) [ProgramDerived1]
+INFO  20:21:34,930 - ===================================
+INFO  20:21:34,931 -  Print count calls = 0
+INFO  20:21:34,931 -  Deklarisanih promenljivih ima = 0

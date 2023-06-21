@@ -1,0 +1,13 @@
+INFO  20:14:18,768 - Compiling source file: C:\RTI\PP\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:14:18,778 - #2 program
+INFO  20:14:18,778 - #44 test302
+INFO  20:14:18,778 - #6 const
+INFO  20:14:18,779 - #44 int
+INFO  20:14:18,779 - #44 jedan
+INFO  20:14:18,779 - #33 =
+INFO  20:14:18,779 - #45 1
+INFO  20:14:18,779 - #18 ;
+INFO  20:14:18,780 - #44 int
+ERROR 20:14:18,780 - 
+Sintaksna greska na liniji 7
+ERROR 20:14:18,780 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

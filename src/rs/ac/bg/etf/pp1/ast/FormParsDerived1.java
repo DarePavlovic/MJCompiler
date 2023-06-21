@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,16 +8,15 @@ package rs.ac.bg.etf.pp1.ast;
 public class FormParsDerived1 extends FormPars {
 
     private Type Type;
+    private String I2;
     private Brackets Brackets;
-    private BracketList BracketList;
 
-    public FormParsDerived1 (Type Type, Brackets Brackets, BracketList BracketList) {
+    public FormParsDerived1 (Type Type, String I2, Brackets Brackets) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
+        this.I2=I2;
         this.Brackets=Brackets;
         if(Brackets!=null) Brackets.setParent(this);
-        this.BracketList=BracketList;
-        if(BracketList!=null) BracketList.setParent(this);
     }
 
     public Type getType() {
@@ -28,20 +27,20 @@ public class FormParsDerived1 extends FormPars {
         this.Type=Type;
     }
 
+    public String getI2() {
+        return I2;
+    }
+
+    public void setI2(String I2) {
+        this.I2=I2;
+    }
+
     public Brackets getBrackets() {
         return Brackets;
     }
 
     public void setBrackets(Brackets Brackets) {
         this.Brackets=Brackets;
-    }
-
-    public BracketList getBracketList() {
-        return BracketList;
-    }
-
-    public void setBracketList(BracketList BracketList) {
-        this.BracketList=BracketList;
     }
 
     public void accept(Visitor visitor) {
@@ -51,20 +50,17 @@ public class FormParsDerived1 extends FormPars {
     public void childrenAccept(Visitor visitor) {
         if(Type!=null) Type.accept(visitor);
         if(Brackets!=null) Brackets.accept(visitor);
-        if(BracketList!=null) BracketList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(Type!=null) Type.traverseTopDown(visitor);
         if(Brackets!=null) Brackets.traverseTopDown(visitor);
-        if(BracketList!=null) BracketList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(Type!=null) Type.traverseBottomUp(visitor);
         if(Brackets!=null) Brackets.traverseBottomUp(visitor);
-        if(BracketList!=null) BracketList.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -79,14 +75,11 @@ public class FormParsDerived1 extends FormPars {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(Brackets!=null)
-            buffer.append(Brackets.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
+        buffer.append(" "+tab+I2);
         buffer.append("\n");
 
-        if(BracketList!=null)
-            buffer.append(BracketList.toString("  "+tab));
+        if(Brackets!=null)
+            buffer.append(Brackets.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

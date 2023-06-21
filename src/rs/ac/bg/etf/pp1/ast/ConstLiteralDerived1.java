@@ -1,13 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 20/5/2023 1:48:18
+// 22/5/2023 0:41:17
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class ConstLiteralDerived1 extends ConstLiteral {
 
-    public ConstLiteralDerived1 () {
+    private Integer N1;
+
+    public ConstLiteralDerived1 (Integer N1) {
+        this.N1=N1;
+    }
+
+    public Integer getN1() {
+        return N1;
+    }
+
+    public void setN1(Integer N1) {
+        this.N1=N1;
     }
 
     public void accept(Visitor visitor) {
@@ -29,6 +40,9 @@ public class ConstLiteralDerived1 extends ConstLiteral {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
         buffer.append("ConstLiteralDerived1(\n");
+
+        buffer.append(" "+tab+N1);
+        buffer.append("\n");
 
         buffer.append(tab);
         buffer.append(") [ConstLiteralDerived1]");
