@@ -1,0 +1,2675 @@
+INFO  01:31:14,884 - Compiling source file: C:\RTI\PP\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:31:14,911 - #2 program
+INFO  01:31:14,911 - #44 test302
+INFO  01:31:14,911 - #6 const
+INFO  01:31:14,912 - #44 int
+INFO  01:31:14,912 - #44 jedan
+INFO  01:31:14,912 - #33 =
+INFO  01:31:14,912 - #45 1
+INFO  01:31:14,912 - #18 ;
+INFO  01:31:14,913 - #44 int
+INFO  01:31:14,913 - #44 i
+INFO  01:31:14,913 - #18 ;
+INFO  01:31:14,913 - #44 bool
+INFO  01:31:14,913 - #44 ibool
+INFO  01:31:14,913 - #18 ;
+INFO  01:31:14,913 - #44 int
+INFO  01:31:14,913 - #44 niz2
+INFO  01:31:14,914 - #38 [
+INFO  01:31:14,914 - #39 ]
+INFO  01:31:14,914 - #18 ;
+INFO  01:31:14,914 - #44 int
+INFO  01:31:14,914 - #44 niz
+INFO  01:31:14,926 - #38 [
+INFO  01:31:14,926 - #39 ]
+INFO  01:31:14,926 - #18 ;
+INFO  01:31:14,926 - #44 int
+INFO  01:31:14,926 - #44 a
+INFO  01:31:14,926 - #41 ,
+INFO  01:31:14,926 - #44 curr
+INFO  01:31:14,926 - #18 ;
+INFO  01:31:14,927 - #16 {
+INFO  01:31:14,927 - #44 int
+INFO  01:31:14,927 - #44 sum
+INFO  01:31:14,927 - #36 (
+INFO  01:31:14,928 - #44 int
+INFO  01:31:14,928 - #44 z
+INFO  01:31:14,928 - #41 ,
+INFO  01:31:14,928 - #44 int
+INFO  01:31:14,928 - #44 d
+INFO  01:31:14,928 - #37 )
+INFO  01:31:14,928 - #16 {
+INFO  01:31:14,929 - #4 return
+INFO  01:31:14,929 - #44 z
+INFO  01:31:14,929 - #19 +
+INFO  01:31:14,930 - #44 d
+INFO  01:31:14,930 - #18 ;
+INFO  01:31:14,931 - #17 }
+INFO  01:31:14,931 - #44 int
+INFO  01:31:14,931 - #44 inkrement
+INFO  01:31:14,931 - #36 (
+INFO  01:31:14,931 - #44 int
+INFO  01:31:14,931 - #44 a
+INFO  01:31:14,931 - #41 ,
+INFO  01:31:14,931 - #44 int
+INFO  01:31:14,931 - #44 inc
+INFO  01:31:14,931 - #37 )
+INFO  01:31:14,931 - #44 int
+INFO  01:31:14,932 - #44 pom
+INFO  01:31:14,932 - #18 ;
+INFO  01:31:14,932 - #16 {
+INFO  01:31:14,932 - #9 if
+INFO  01:31:14,932 - #36 (
+INFO  01:31:14,932 - #44 inc
+INFO  01:31:14,932 - #24 ==
+INFO  01:31:14,932 - #44 jedan
+INFO  01:31:14,933 - #37 )
+INFO  01:31:14,934 - #44 pom
+INFO  01:31:14,934 - #33 =
+INFO  01:31:14,934 - #45 1
+INFO  01:31:14,934 - #18 ;
+INFO  01:31:14,935 - #8 else
+INFO  01:31:14,935 - #9 if
+INFO  01:31:14,935 - #36 (
+INFO  01:31:14,935 - #44 inc
+INFO  01:31:14,935 - #24 ==
+INFO  01:31:14,935 - #45 2
+INFO  01:31:14,935 - #37 )
+INFO  01:31:14,935 - #44 pom
+INFO  01:31:14,935 - #33 =
+INFO  01:31:14,936 - #44 a
+INFO  01:31:14,936 - #18 ;
+INFO  01:31:14,936 - #4 return
+INFO  01:31:14,936 - #44 sum
+INFO  01:31:14,936 - #36 (
+INFO  01:31:14,936 - #44 a
+INFO  01:31:14,936 - #41 ,
+INFO  01:31:14,936 - #44 pom
+INFO  01:31:14,936 - #37 )
+INFO  01:31:14,936 - #18 ;
+INFO  01:31:14,936 - #17 }
+INFO  01:31:14,936 - #44 bool
+INFO  01:31:14,936 - #44 verify
+INFO  01:31:14,936 - #36 (
+INFO  01:31:14,936 - #37 )
+INFO  01:31:14,937 - #16 {
+INFO  01:31:14,937 - #3 print
+INFO  01:31:14,937 - #36 (
+INFO  01:31:14,937 - #46 v
+INFO  01:31:14,937 - #37 )
+INFO  01:31:14,937 - #18 ;
+INFO  01:31:14,938 - #4 return
+INFO  01:31:14,938 - #47 false
+INFO  01:31:14,938 - #18 ;
+INFO  01:31:14,938 - #17 }
+INFO  01:31:14,938 - #5 void
+INFO  01:31:14,938 - #44 main
+INFO  01:31:14,938 - #36 (
+INFO  01:31:14,939 - #37 )
+INFO  01:31:14,939 - #16 {
+INFO  01:31:14,939 - #9 if
+INFO  01:31:14,939 - #36 (
+INFO  01:31:14,939 - #45 1
+INFO  01:31:14,939 - #25 !=
+INFO  01:31:14,939 - #45 1
+INFO  01:31:14,939 - #37 )
+INFO  01:31:14,939 - #3 print
+INFO  01:31:14,939 - #36 (
+INFO  01:31:14,939 - #20 -
+INFO  01:31:14,939 - #45 6
+INFO  01:31:14,939 - #37 )
+INFO  01:31:14,939 - #18 ;
+INFO  01:31:14,940 - #8 else
+INFO  01:31:14,940 - #3 print
+INFO  01:31:14,940 - #36 (
+INFO  01:31:14,940 - #45 0
+INFO  01:31:14,940 - #37 )
+INFO  01:31:14,940 - #18 ;
+INFO  01:31:14,940 - #44 ibool
+INFO  01:31:14,940 - #33 =
+INFO  01:31:14,940 - #47 false
+INFO  01:31:14,940 - #18 ;
+INFO  01:31:14,940 - #44 i
+INFO  01:31:14,940 - #33 =
+INFO  01:31:14,940 - #45 0
+INFO  01:31:14,940 - #18 ;
+INFO  01:31:14,940 - #10 while
+INFO  01:31:14,940 - #36 (
+INFO  01:31:14,940 - #44 i
+INFO  01:31:14,940 - #28 <
+INFO  01:31:14,940 - #45 5
+INFO  01:31:14,941 - #37 )
+INFO  01:31:14,941 - #16 {
+INFO  01:31:14,941 - #9 if
+INFO  01:31:14,941 - #36 (
+INFO  01:31:14,941 - #44 i
+INFO  01:31:14,941 - #24 ==
+INFO  01:31:14,941 - #45 2
+INFO  01:31:14,941 - #37 )
+INFO  01:31:14,941 - #44 ibool
+INFO  01:31:14,941 - #33 =
+INFO  01:31:14,941 - #47 true
+INFO  01:31:14,941 - #18 ;
+INFO  01:31:14,941 - #44 i
+INFO  01:31:14,941 - #42 ++
+INFO  01:31:14,941 - #18 ;
+INFO  01:31:14,942 - #17 }
+INFO  01:31:14,942 - #9 if
+INFO  01:31:14,942 - #36 (
+INFO  01:31:14,942 - #44 ibool
+INFO  01:31:14,942 - #37 )
+INFO  01:31:14,942 - #9 if
+INFO  01:31:14,942 - #36 (
+INFO  01:31:14,942 - #44 i
+INFO  01:31:14,942 - #24 ==
+INFO  01:31:14,942 - #45 5
+INFO  01:31:14,942 - #37 )
+INFO  01:31:14,942 - #3 print
+INFO  01:31:14,942 - #36 (
+INFO  01:31:14,942 - #45 1
+INFO  01:31:14,942 - #37 )
+INFO  01:31:14,942 - #18 ;
+INFO  01:31:14,942 - #8 else
+INFO  01:31:14,942 - #3 print
+INFO  01:31:14,943 - #36 (
+INFO  01:31:14,943 - #20 -
+INFO  01:31:14,943 - #45 1
+INFO  01:31:14,943 - #37 )
+INFO  01:31:14,943 - #18 ;
+INFO  01:31:14,943 - #44 a
+INFO  01:31:14,943 - #33 =
+INFO  01:31:14,943 - #45 2
+INFO  01:31:14,943 - #18 ;
+INFO  01:31:14,943 - #44 niz
+INFO  01:31:14,943 - #33 =
+INFO  01:31:14,943 - #11 new
+INFO  01:31:14,943 - #44 int
+INFO  01:31:14,943 - #38 [
+INFO  01:31:14,943 - #45 3
+INFO  01:31:14,943 - #39 ]
+INFO  01:31:14,943 - #18 ;
+INFO  01:31:14,943 - #44 niz
+INFO  01:31:14,943 - #38 [
+INFO  01:31:14,944 - #45 0
+INFO  01:31:14,944 - #39 ]
+INFO  01:31:14,944 - #33 =
+INFO  01:31:14,944 - #45 1
+INFO  01:31:14,944 - #21 *
+INFO  01:31:14,944 - #44 a
+INFO  01:31:14,944 - #18 ;
+INFO  01:31:14,945 - #44 niz
+INFO  01:31:14,945 - #38 [
+INFO  01:31:14,945 - #45 1
+INFO  01:31:14,945 - #39 ]
+INFO  01:31:14,945 - #33 =
+INFO  01:31:14,945 - #45 2
+INFO  01:31:14,945 - #21 *
+INFO  01:31:14,945 - #44 a
+INFO  01:31:14,945 - #18 ;
+INFO  01:31:14,945 - #44 niz
+INFO  01:31:14,945 - #38 [
+INFO  01:31:14,945 - #45 2
+INFO  01:31:14,945 - #39 ]
+INFO  01:31:14,945 - #33 =
+INFO  01:31:14,945 - #44 sum
+INFO  01:31:14,945 - #36 (
+INFO  01:31:14,945 - #44 niz
+INFO  01:31:14,945 - #38 [
+INFO  01:31:14,945 - #45 1
+INFO  01:31:14,945 - #39 ]
+INFO  01:31:14,945 - #41 ,
+INFO  01:31:14,945 - #44 niz
+INFO  01:31:14,945 - #38 [
+INFO  01:31:14,945 - #45 0
+INFO  01:31:14,945 - #39 ]
+INFO  01:31:14,945 - #37 )
+INFO  01:31:14,945 - #21 *
+INFO  01:31:14,946 - #44 a
+INFO  01:31:14,946 - #19 +
+INFO  01:31:14,946 - #45 1
+INFO  01:31:14,946 - #18 ;
+INFO  01:31:14,946 - #9 if
+INFO  01:31:14,946 - #36 (
+INFO  01:31:14,946 - #44 verify
+INFO  01:31:14,946 - #36 (
+INFO  01:31:14,946 - #37 )
+INFO  01:31:14,946 - #31 ||
+INFO  01:31:14,946 - #44 niz
+INFO  01:31:14,946 - #38 [
+INFO  01:31:14,946 - #45 2
+INFO  01:31:14,946 - #39 ]
+INFO  01:31:14,946 - #24 ==
+INFO  01:31:14,946 - #45 4
+INFO  01:31:14,946 - #37 )
+INFO  01:31:14,946 - #3 print
+INFO  01:31:14,946 - #36 (
+INFO  01:31:14,946 - #44 ord
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,947 - #46 A
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #18 ;
+INFO  01:31:14,947 - #8 else
+INFO  01:31:14,947 - #3 print
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,947 - #44 ord
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,947 - #46 a
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #18 ;
+INFO  01:31:14,947 - #3 print
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,947 - #44 eol
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #18 ;
+INFO  01:31:14,947 - #44 i
+INFO  01:31:14,947 - #33 =
+INFO  01:31:14,947 - #45 0
+INFO  01:31:14,947 - #18 ;
+INFO  01:31:14,947 - #10 while
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,947 - #44 i
+INFO  01:31:14,947 - #28 <
+INFO  01:31:14,947 - #45 10
+INFO  01:31:14,947 - #37 )
+INFO  01:31:14,947 - #16 {
+INFO  01:31:14,947 - #9 if
+INFO  01:31:14,947 - #36 (
+INFO  01:31:14,948 - #44 i
+INFO  01:31:14,948 - #24 ==
+INFO  01:31:14,948 - #45 3
+INFO  01:31:14,948 - #37 )
+INFO  01:31:14,948 - #16 {
+INFO  01:31:14,948 - #44 i
+INFO  01:31:14,948 - #42 ++
+INFO  01:31:14,948 - #18 ;
+INFO  01:31:14,948 - #14 continue
+INFO  01:31:14,948 - #18 ;
+INFO  01:31:14,948 - #17 }
+INFO  01:31:14,948 - #9 if
+INFO  01:31:14,948 - #36 (
+INFO  01:31:14,948 - #44 i
+INFO  01:31:14,948 - #24 ==
+INFO  01:31:14,948 - #45 4
+INFO  01:31:14,948 - #37 )
+INFO  01:31:14,949 - #7 break
+INFO  01:31:14,949 - #18 ;
+INFO  01:31:14,949 - #44 i
+INFO  01:31:14,949 - #33 =
+INFO  01:31:14,949 - #44 inkrement
+INFO  01:31:14,949 - #36 (
+INFO  01:31:14,949 - #44 i
+INFO  01:31:14,949 - #41 ,
+INFO  01:31:14,949 - #45 1
+INFO  01:31:14,949 - #37 )
+INFO  01:31:14,949 - #18 ;
+INFO  01:31:14,949 - #17 }
+INFO  01:31:14,949 - #9 if
+INFO  01:31:14,949 - #36 (
+INFO  01:31:14,949 - #44 i
+INFO  01:31:14,949 - #24 ==
+INFO  01:31:14,949 - #45 3
+INFO  01:31:14,949 - #30 &&
+INFO  01:31:14,949 - #44 verify
+INFO  01:31:14,949 - #36 (
+INFO  01:31:14,949 - #37 )
+INFO  01:31:14,949 - #37 )
+INFO  01:31:14,950 - #3 print
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #20 -
+INFO  01:31:14,950 - #45 4
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #8 else
+INFO  01:31:14,950 - #3 print
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #45 4
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #12 read
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 niz
+INFO  01:31:14,950 - #38 [
+INFO  01:31:14,950 - #45 0
+INFO  01:31:14,950 - #39 ]
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #12 read
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 niz
+INFO  01:31:14,950 - #38 [
+INFO  01:31:14,950 - #45 1
+INFO  01:31:14,950 - #39 ]
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #12 read
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 niz
+INFO  01:31:14,950 - #38 [
+INFO  01:31:14,950 - #45 2
+INFO  01:31:14,950 - #39 ]
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #3 print
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 eol
+INFO  01:31:14,950 - #37 )
+INFO  01:31:14,950 - #18 ;
+INFO  01:31:14,950 - #3 print
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 sum
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 sum
+INFO  01:31:14,950 - #36 (
+INFO  01:31:14,950 - #44 niz
+INFO  01:31:14,950 - #38 [
+INFO  01:31:14,950 - #45 0
+INFO  01:31:14,950 - #39 ]
+INFO  01:31:14,951 - #41 ,
+INFO  01:31:14,951 - #44 niz
+INFO  01:31:14,951 - #38 [
+INFO  01:31:14,951 - #45 1
+INFO  01:31:14,951 - #39 ]
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #41 ,
+INFO  01:31:14,951 - #44 niz
+INFO  01:31:14,951 - #38 [
+INFO  01:31:14,951 - #45 2
+INFO  01:31:14,951 - #39 ]
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #18 ;
+INFO  01:31:14,951 - #3 print
+INFO  01:31:14,951 - #36 (
+INFO  01:31:14,951 - #44 eol
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #18 ;
+INFO  01:31:14,951 - #3 print
+INFO  01:31:14,951 - #36 (
+INFO  01:31:14,951 - #44 inkrement
+INFO  01:31:14,951 - #36 (
+INFO  01:31:14,951 - #44 niz
+INFO  01:31:14,951 - #38 [
+INFO  01:31:14,951 - #45 2
+INFO  01:31:14,951 - #39 ]
+INFO  01:31:14,951 - #41 ,
+INFO  01:31:14,951 - #45 2
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #18 ;
+INFO  01:31:14,951 - #44 a
+INFO  01:31:14,951 - #33 =
+INFO  01:31:14,951 - #45 3
+INFO  01:31:14,951 - #18 ;
+INFO  01:31:14,951 - #44 i
+INFO  01:31:14,951 - #33 =
+INFO  01:31:14,951 - #45 0
+INFO  01:31:14,951 - #18 ;
+INFO  01:31:14,951 - #10 while
+INFO  01:31:14,951 - #36 (
+INFO  01:31:14,951 - #44 i
+INFO  01:31:14,951 - #28 <
+INFO  01:31:14,951 - #45 3
+INFO  01:31:14,951 - #37 )
+INFO  01:31:14,951 - #16 {
+INFO  01:31:14,951 - #44 niz
+INFO  01:31:14,951 - #38 [
+INFO  01:31:14,951 - #44 i
+INFO  01:31:14,951 - #39 ]
+INFO  01:31:14,951 - #33 =
+INFO  01:31:14,951 - #44 niz
+INFO  01:31:14,951 - #38 [
+INFO  01:31:14,951 - #44 i
+INFO  01:31:14,952 - #39 ]
+INFO  01:31:14,952 - #21 *
+INFO  01:31:14,952 - #45 2
+INFO  01:31:14,952 - #21 *
+INFO  01:31:14,952 - #44 a
+INFO  01:31:14,952 - #18 ;
+INFO  01:31:14,952 - #44 i
+INFO  01:31:14,952 - #42 ++
+INFO  01:31:14,952 - #18 ;
+INFO  01:31:14,952 - #17 }
+INFO  01:31:14,952 - #44 niz2
+INFO  01:31:14,952 - #33 =
+INFO  01:31:14,952 - #44 niz
+INFO  01:31:14,952 - #35 .
+INFO  01:31:14,952 - #15 map
+INFO  01:31:14,952 - #36 (
+INFO  01:31:14,952 - #44 curr
+INFO  01:31:14,952 - #40 =>
+INFO  01:31:14,952 - #44 curr
+INFO  01:31:14,952 - #21 *
+INFO  01:31:14,952 - #45 3
+INFO  01:31:14,952 - #37 )
+INFO  01:31:14,952 - #18 ;
+INFO  01:31:14,952 - #44 i
+INFO  01:31:14,952 - #33 =
+INFO  01:31:14,952 - #45 0
+INFO  01:31:14,952 - #18 ;
+INFO  01:31:14,952 - #10 while
+INFO  01:31:14,952 - #36 (
+INFO  01:31:14,952 - #44 i
+INFO  01:31:14,952 - #28 <
+INFO  01:31:14,952 - #45 3
+INFO  01:31:14,952 - #37 )
+INFO  01:31:14,952 - #16 {
+INFO  01:31:14,952 - #3 print
+INFO  01:31:14,952 - #36 (
+INFO  01:31:14,952 - #44 niz2
+INFO  01:31:14,952 - #38 [
+INFO  01:31:14,952 - #44 i
+INFO  01:31:14,953 - #39 ]
+INFO  01:31:14,953 - #37 )
+INFO  01:31:14,953 - #18 ;
+INFO  01:31:14,953 - #44 i
+INFO  01:31:14,953 - #42 ++
+INFO  01:31:14,953 - #18 ;
+INFO  01:31:14,953 - #17 }
+INFO  01:31:14,953 - #17 }
+INFO  01:31:14,953 - #17 }
+INFO  01:31:14,960 - Program(
+ test302
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            ConstDeclarations(
+              NoDeclList(
+              ) [NoDeclList]
+              ConstDeclaration(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 jedan
+                  ConstNumber(
+                   1
+                  ) [ConstNumber]
+                ) [ConstDecl]
+              ) [ConstDeclaration]
+            ) [ConstDeclarations]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDecl(
+               i
+                NoBrackets(
+                ) [NoBrackets]
+              ) [VarDecl]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarDecl(
+             ibool
+              NoBrackets(
+              ) [NoBrackets]
+            ) [VarDecl]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarDecl(
+           niz2
+            ArrayBrackets(
+              NoBrackets(
+              ) [NoBrackets]
+            ) [ArrayBrackets]
+          ) [VarDecl]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         niz
+          ArrayBrackets(
+            NoBrackets(
+            ) [NoBrackets]
+          ) [ArrayBrackets]
+        ) [VarDecl]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclarationComma(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarDecl(
+         a
+          NoBrackets(
+          ) [NoBrackets]
+        ) [VarDecl]
+      ) [VarDeclaration]
+      VarDecl(
+       curr
+        NoBrackets(
+        ) [NoBrackets]
+      ) [VarDecl]
+    ) [VarDeclarationComma]
+  ) [VarDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      MethodDeclarationList(
+        MethodDeclarationList(
+          NoMethodDeclList(
+          ) [NoMethodDeclList]
+          MethodDecl(
+            MethType(
+              Type(
+               int
+              ) [Type]
+            ) [MethType]
+           sum
+            FormsParameters(
+              FormParameterComma(
+                FormParameter(
+                  Type(
+                   int
+                  ) [Type]
+                 z
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [FormParameter]
+                Type(
+                 int
+                ) [Type]
+               d
+                NoBrackets(
+                ) [NoBrackets]
+              ) [FormParameterComma]
+            ) [FormsParameters]
+            NoVarMethList(
+            ) [NoVarMethList]
+            StatementList(
+              NoStatements(
+              ) [NoStatements]
+              ReturnStatement(
+                ExprBrack(
+                  JustExpr(
+                    Term(
+                      FactorDesign(
+                        DesignatorIdent(
+                         z
+                        ) [DesignatorIdent]
+                        NoParenActParams(
+                        ) [NoParenActParams]
+                      ) [FactorDesign]
+                      NoMultiplicativeList(
+                      ) [NoMultiplicativeList]
+                    ) [Term]
+                    PlusOpList(
+                      NoAddOpList(
+                      ) [NoAddOpList]
+                      Term(
+                        FactorDesign(
+                          DesignatorIdent(
+                           d
+                          ) [DesignatorIdent]
+                          NoParenActParams(
+                          ) [NoParenActParams]
+                        ) [FactorDesign]
+                        NoMultiplicativeList(
+                        ) [NoMultiplicativeList]
+                      ) [Term]
+                    ) [PlusOpList]
+                  ) [JustExpr]
+                ) [ExprBrack]
+              ) [ReturnStatement]
+            ) [StatementList]
+          ) [MethodDecl]
+        ) [MethodDeclarationList]
+        MethodDecl(
+          MethType(
+            Type(
+             int
+            ) [Type]
+          ) [MethType]
+         inkrement
+          FormsParameters(
+            FormParameterComma(
+              FormParameter(
+                Type(
+                 int
+                ) [Type]
+               a
+                NoBrackets(
+                ) [NoBrackets]
+              ) [FormParameter]
+              Type(
+               int
+              ) [Type]
+             inc
+              NoBrackets(
+              ) [NoBrackets]
+            ) [FormParameterComma]
+          ) [FormsParameters]
+          VarMethList(
+            NoVarMethList(
+            ) [NoVarMethList]
+            VarMethodList(
+              Type(
+               int
+              ) [Type]
+              VarDecl(
+               pom
+                NoBrackets(
+                ) [NoBrackets]
+              ) [VarDecl]
+            ) [VarMethodList]
+          ) [VarMethList]
+          StatementList(
+            StatementList(
+              NoStatements(
+              ) [NoStatements]
+              IfStatement(
+                ConditionJustTerm(
+                  ConditionFact(
+                    CondFact(
+                      JustExpr(
+                        Term(
+                          FactorDesign(
+                            DesignatorIdent(
+                             inc
+                            ) [DesignatorIdent]
+                            NoParenActParams(
+                            ) [NoParenActParams]
+                          ) [FactorDesign]
+                          NoMultiplicativeList(
+                          ) [NoMultiplicativeList]
+                        ) [Term]
+                        NoAddOpList(
+                        ) [NoAddOpList]
+                      ) [JustExpr]
+                      RelationBrackets(
+                        RelDbEq(
+                        ) [RelDbEq]
+                        JustExpr(
+                          Term(
+                            FactorDesign(
+                              DesignatorIdent(
+                               jedan
+                              ) [DesignatorIdent]
+                              NoParenActParams(
+                              ) [NoParenActParams]
+                            ) [FactorDesign]
+                            NoMultiplicativeList(
+                            ) [NoMultiplicativeList]
+                          ) [Term]
+                          NoAddOpList(
+                          ) [NoAddOpList]
+                        ) [JustExpr]
+                      ) [RelationBrackets]
+                    ) [CondFact]
+                  ) [ConditionFact]
+                ) [ConditionJustTerm]
+                DesigStatement(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     pom
+                    ) [DesignatorIdent]
+                    AssListAssOpExpr(
+                      Assignop(
+                      ) [Assignop]
+                      JustExpr(
+                        Term(
+                          FactorNumber(
+                           1
+                          ) [FactorNumber]
+                          NoMultiplicativeList(
+                          ) [NoMultiplicativeList]
+                        ) [Term]
+                        NoAddOpList(
+                        ) [NoAddOpList]
+                      ) [JustExpr]
+                    ) [AssListAssOpExpr]
+                  ) [DesignatorStatement]
+                ) [DesigStatement]
+                ElseState(
+                  IfStatement(
+                    ConditionJustTerm(
+                      ConditionFact(
+                        CondFact(
+                          JustExpr(
+                            Term(
+                              FactorDesign(
+                                DesignatorIdent(
+                                 inc
+                                ) [DesignatorIdent]
+                                NoParenActParams(
+                                ) [NoParenActParams]
+                              ) [FactorDesign]
+                              NoMultiplicativeList(
+                              ) [NoMultiplicativeList]
+                            ) [Term]
+                            NoAddOpList(
+                            ) [NoAddOpList]
+                          ) [JustExpr]
+                          RelationBrackets(
+                            RelDbEq(
+                            ) [RelDbEq]
+                            JustExpr(
+                              Term(
+                                FactorNumber(
+                                 2
+                                ) [FactorNumber]
+                                NoMultiplicativeList(
+                                ) [NoMultiplicativeList]
+                              ) [Term]
+                              NoAddOpList(
+                              ) [NoAddOpList]
+                            ) [JustExpr]
+                          ) [RelationBrackets]
+                        ) [CondFact]
+                      ) [ConditionFact]
+                    ) [ConditionJustTerm]
+                    DesigStatement(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         pom
+                        ) [DesignatorIdent]
+                        AssListAssOpExpr(
+                          Assignop(
+                          ) [Assignop]
+                          JustExpr(
+                            Term(
+                              FactorDesign(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                                NoParenActParams(
+                                ) [NoParenActParams]
+                              ) [FactorDesign]
+                              NoMultiplicativeList(
+                              ) [NoMultiplicativeList]
+                            ) [Term]
+                            NoAddOpList(
+                            ) [NoAddOpList]
+                          ) [JustExpr]
+                        ) [AssListAssOpExpr]
+                      ) [DesignatorStatement]
+                    ) [DesigStatement]
+                    NoElseStatement(
+                    ) [NoElseStatement]
+                  ) [IfStatement]
+                ) [ElseState]
+              ) [IfStatement]
+            ) [StatementList]
+            ReturnStatement(
+              ExprBrack(
+                JustExpr(
+                  Term(
+                    FactorDesign(
+                      DesignatorIdent(
+                       sum
+                      ) [DesignatorIdent]
+                      ParenActParams(
+                        ActParmList(
+                          ActParsComma(
+                            ActParsExpr(
+                              JustExpr(
+                                Term(
+                                  FactorDesign(
+                                    DesignatorIdent(
+                                     a
+                                    ) [DesignatorIdent]
+                                    NoParenActParams(
+                                    ) [NoParenActParams]
+                                  ) [FactorDesign]
+                                  NoMultiplicativeList(
+                                  ) [NoMultiplicativeList]
+                                ) [Term]
+                                NoAddOpList(
+                                ) [NoAddOpList]
+                              ) [JustExpr]
+                            ) [ActParsExpr]
+                            JustExpr(
+                              Term(
+                                FactorDesign(
+                                  DesignatorIdent(
+                                   pom
+                                  ) [DesignatorIdent]
+                                  NoParenActParams(
+                                  ) [NoParenActParams]
+                                ) [FactorDesign]
+                                NoMultiplicativeList(
+                                ) [NoMultiplicativeList]
+                              ) [Term]
+                              NoAddOpList(
+                              ) [NoAddOpList]
+                            ) [JustExpr]
+                          ) [ActParsComma]
+                        ) [ActParmList]
+                      ) [ParenActParams]
+                    ) [FactorDesign]
+                    NoMultiplicativeList(
+                    ) [NoMultiplicativeList]
+                  ) [Term]
+                  NoAddOpList(
+                  ) [NoAddOpList]
+                ) [JustExpr]
+              ) [ExprBrack]
+            ) [ReturnStatement]
+          ) [StatementList]
+        ) [MethodDecl]
+      ) [MethodDeclarationList]
+      MethodDecl(
+        MethType(
+          Type(
+           bool
+          ) [Type]
+        ) [MethType]
+       verify
+        NoFormsParameters(
+        ) [NoFormsParameters]
+        NoVarMethList(
+        ) [NoVarMethList]
+        StatementList(
+          StatementList(
+            NoStatements(
+            ) [NoStatements]
+            PrintStatement(
+              JustExpr(
+                Term(
+                  FactorChar(
+                   v
+                  ) [FactorChar]
+                  NoMultiplicativeList(
+                  ) [NoMultiplicativeList]
+                ) [Term]
+                NoAddOpList(
+                ) [NoAddOpList]
+              ) [JustExpr]
+              NoNumConstAddition(
+              ) [NoNumConstAddition]
+            ) [PrintStatement]
+          ) [StatementList]
+          ReturnStatement(
+            ExprBrack(
+              JustExpr(
+                Term(
+                  FactorBool(
+                   false
+                  ) [FactorBool]
+                  NoMultiplicativeList(
+                  ) [NoMultiplicativeList]
+                ) [Term]
+                NoAddOpList(
+                ) [NoAddOpList]
+              ) [JustExpr]
+            ) [ExprBrack]
+          ) [ReturnStatement]
+        ) [StatementList]
+      ) [MethodDecl]
+    ) [MethodDeclarationList]
+    MethodDecl(
+      MethVoid(
+      ) [MethVoid]
+     main
+      NoFormsParameters(
+      ) [NoFormsParameters]
+      NoVarMethList(
+      ) [NoVarMethList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    StatementList(
+                      StatementList(
+                        StatementList(
+                          StatementList(
+                            StatementList(
+                              StatementList(
+                                StatementList(
+                                  StatementList(
+                                    StatementList(
+                                      StatementList(
+                                        StatementList(
+                                          StatementList(
+                                            StatementList(
+                                              StatementList(
+                                                StatementList(
+                                                  StatementList(
+                                                    StatementList(
+                                                      StatementList(
+                                                        StatementList(
+                                                          StatementList(
+                                                            StatementList(
+                                                              NoStatements(
+                                                              ) [NoStatements]
+                                                              IfStatement(
+                                                                ConditionJustTerm(
+                                                                  ConditionFact(
+                                                                    CondFact(
+                                                                      JustExpr(
+                                                                        Term(
+                                                                          FactorNumber(
+                                                                           1
+                                                                          ) [FactorNumber]
+                                                                          NoMultiplicativeList(
+                                                                          ) [NoMultiplicativeList]
+                                                                        ) [Term]
+                                                                        NoAddOpList(
+                                                                        ) [NoAddOpList]
+                                                                      ) [JustExpr]
+                                                                      RelationBrackets(
+                                                                        RelNoEq(
+                                                                        ) [RelNoEq]
+                                                                        JustExpr(
+                                                                          Term(
+                                                                            FactorNumber(
+                                                                             1
+                                                                            ) [FactorNumber]
+                                                                            NoMultiplicativeList(
+                                                                            ) [NoMultiplicativeList]
+                                                                          ) [Term]
+                                                                          NoAddOpList(
+                                                                          ) [NoAddOpList]
+                                                                        ) [JustExpr]
+                                                                      ) [RelationBrackets]
+                                                                    ) [CondFact]
+                                                                  ) [ConditionFact]
+                                                                ) [ConditionJustTerm]
+                                                                PrintStatement(
+                                                                  ExprMinusBeggin(
+                                                                    Term(
+                                                                      FactorNumber(
+                                                                       6
+                                                                      ) [FactorNumber]
+                                                                      NoMultiplicativeList(
+                                                                      ) [NoMultiplicativeList]
+                                                                    ) [Term]
+                                                                    NoAddOpList(
+                                                                    ) [NoAddOpList]
+                                                                  ) [ExprMinusBeggin]
+                                                                  NoNumConstAddition(
+                                                                  ) [NoNumConstAddition]
+                                                                ) [PrintStatement]
+                                                                ElseState(
+                                                                  PrintStatement(
+                                                                    JustExpr(
+                                                                      Term(
+                                                                        FactorNumber(
+                                                                         0
+                                                                        ) [FactorNumber]
+                                                                        NoMultiplicativeList(
+                                                                        ) [NoMultiplicativeList]
+                                                                      ) [Term]
+                                                                      NoAddOpList(
+                                                                      ) [NoAddOpList]
+                                                                    ) [JustExpr]
+                                                                    NoNumConstAddition(
+                                                                    ) [NoNumConstAddition]
+                                                                  ) [PrintStatement]
+                                                                ) [ElseState]
+                                                              ) [IfStatement]
+                                                            ) [StatementList]
+                                                            DesigStatement(
+                                                              DesignatorStatement(
+                                                                DesignatorIdent(
+                                                                 ibool
+                                                                ) [DesignatorIdent]
+                                                                AssListAssOpExpr(
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  JustExpr(
+                                                                    Term(
+                                                                      FactorBool(
+                                                                       false
+                                                                      ) [FactorBool]
+                                                                      NoMultiplicativeList(
+                                                                      ) [NoMultiplicativeList]
+                                                                    ) [Term]
+                                                                    NoAddOpList(
+                                                                    ) [NoAddOpList]
+                                                                  ) [JustExpr]
+                                                                ) [AssListAssOpExpr]
+                                                              ) [DesignatorStatement]
+                                                            ) [DesigStatement]
+                                                          ) [StatementList]
+                                                          DesigStatement(
+                                                            DesignatorStatement(
+                                                              DesignatorIdent(
+                                                               i
+                                                              ) [DesignatorIdent]
+                                                              AssListAssOpExpr(
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                JustExpr(
+                                                                  Term(
+                                                                    FactorNumber(
+                                                                     0
+                                                                    ) [FactorNumber]
+                                                                    NoMultiplicativeList(
+                                                                    ) [NoMultiplicativeList]
+                                                                  ) [Term]
+                                                                  NoAddOpList(
+                                                                  ) [NoAddOpList]
+                                                                ) [JustExpr]
+                                                              ) [AssListAssOpExpr]
+                                                            ) [DesignatorStatement]
+                                                          ) [DesigStatement]
+                                                        ) [StatementList]
+                                                        WhileStatement(
+                                                          ConditionJustTerm(
+                                                            ConditionFact(
+                                                              CondFact(
+                                                                JustExpr(
+                                                                  Term(
+                                                                    FactorDesign(
+                                                                      DesignatorIdent(
+                                                                       i
+                                                                      ) [DesignatorIdent]
+                                                                      NoParenActParams(
+                                                                      ) [NoParenActParams]
+                                                                    ) [FactorDesign]
+                                                                    NoMultiplicativeList(
+                                                                    ) [NoMultiplicativeList]
+                                                                  ) [Term]
+                                                                  NoAddOpList(
+                                                                  ) [NoAddOpList]
+                                                                ) [JustExpr]
+                                                                RelationBrackets(
+                                                                  RelLess(
+                                                                  ) [RelLess]
+                                                                  JustExpr(
+                                                                    Term(
+                                                                      FactorNumber(
+                                                                       5
+                                                                      ) [FactorNumber]
+                                                                      NoMultiplicativeList(
+                                                                      ) [NoMultiplicativeList]
+                                                                    ) [Term]
+                                                                    NoAddOpList(
+                                                                    ) [NoAddOpList]
+                                                                  ) [JustExpr]
+                                                                ) [RelationBrackets]
+                                                              ) [CondFact]
+                                                            ) [ConditionFact]
+                                                          ) [ConditionJustTerm]
+                                                          BraceStatements(
+                                                            StatementList(
+                                                              StatementList(
+                                                                NoStatements(
+                                                                ) [NoStatements]
+                                                                IfStatement(
+                                                                  ConditionJustTerm(
+                                                                    ConditionFact(
+                                                                      CondFact(
+                                                                        JustExpr(
+                                                                          Term(
+                                                                            FactorDesign(
+                                                                              DesignatorIdent(
+                                                                               i
+                                                                              ) [DesignatorIdent]
+                                                                              NoParenActParams(
+                                                                              ) [NoParenActParams]
+                                                                            ) [FactorDesign]
+                                                                            NoMultiplicativeList(
+                                                                            ) [NoMultiplicativeList]
+                                                                          ) [Term]
+                                                                          NoAddOpList(
+                                                                          ) [NoAddOpList]
+                                                                        ) [JustExpr]
+                                                                        RelationBrackets(
+                                                                          RelDbEq(
+                                                                          ) [RelDbEq]
+                                                                          JustExpr(
+                                                                            Term(
+                                                                              FactorNumber(
+                                                                               2
+                                                                              ) [FactorNumber]
+                                                                              NoMultiplicativeList(
+                                                                              ) [NoMultiplicativeList]
+                                                                            ) [Term]
+                                                                            NoAddOpList(
+                                                                            ) [NoAddOpList]
+                                                                          ) [JustExpr]
+                                                                        ) [RelationBrackets]
+                                                                      ) [CondFact]
+                                                                    ) [ConditionFact]
+                                                                  ) [ConditionJustTerm]
+                                                                  DesigStatement(
+                                                                    DesignatorStatement(
+                                                                      DesignatorIdent(
+                                                                       ibool
+                                                                      ) [DesignatorIdent]
+                                                                      AssListAssOpExpr(
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        JustExpr(
+                                                                          Term(
+                                                                            FactorBool(
+                                                                             true
+                                                                            ) [FactorBool]
+                                                                            NoMultiplicativeList(
+                                                                            ) [NoMultiplicativeList]
+                                                                          ) [Term]
+                                                                          NoAddOpList(
+                                                                          ) [NoAddOpList]
+                                                                        ) [JustExpr]
+                                                                      ) [AssListAssOpExpr]
+                                                                    ) [DesignatorStatement]
+                                                                  ) [DesigStatement]
+                                                                  NoElseStatement(
+                                                                  ) [NoElseStatement]
+                                                                ) [IfStatement]
+                                                              ) [StatementList]
+                                                              DesigStatement(
+                                                                DesignatorStatement(
+                                                                  DesignatorIdent(
+                                                                   i
+                                                                  ) [DesignatorIdent]
+                                                                  AssListDoublePlus(
+                                                                  ) [AssListDoublePlus]
+                                                                ) [DesignatorStatement]
+                                                              ) [DesigStatement]
+                                                            ) [StatementList]
+                                                          ) [BraceStatements]
+                                                        ) [WhileStatement]
+                                                      ) [StatementList]
+                                                      IfStatement(
+                                                        ConditionJustTerm(
+                                                          ConditionFact(
+                                                            CondFact(
+                                                              JustExpr(
+                                                                Term(
+                                                                  FactorDesign(
+                                                                    DesignatorIdent(
+                                                                     ibool
+                                                                    ) [DesignatorIdent]
+                                                                    NoParenActParams(
+                                                                    ) [NoParenActParams]
+                                                                  ) [FactorDesign]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [JustExpr]
+                                                              NoRelationBrackets(
+                                                              ) [NoRelationBrackets]
+                                                            ) [CondFact]
+                                                          ) [ConditionFact]
+                                                        ) [ConditionJustTerm]
+                                                        IfStatement(
+                                                          ConditionJustTerm(
+                                                            ConditionFact(
+                                                              CondFact(
+                                                                JustExpr(
+                                                                  Term(
+                                                                    FactorDesign(
+                                                                      DesignatorIdent(
+                                                                       i
+                                                                      ) [DesignatorIdent]
+                                                                      NoParenActParams(
+                                                                      ) [NoParenActParams]
+                                                                    ) [FactorDesign]
+                                                                    NoMultiplicativeList(
+                                                                    ) [NoMultiplicativeList]
+                                                                  ) [Term]
+                                                                  NoAddOpList(
+                                                                  ) [NoAddOpList]
+                                                                ) [JustExpr]
+                                                                RelationBrackets(
+                                                                  RelDbEq(
+                                                                  ) [RelDbEq]
+                                                                  JustExpr(
+                                                                    Term(
+                                                                      FactorNumber(
+                                                                       5
+                                                                      ) [FactorNumber]
+                                                                      NoMultiplicativeList(
+                                                                      ) [NoMultiplicativeList]
+                                                                    ) [Term]
+                                                                    NoAddOpList(
+                                                                    ) [NoAddOpList]
+                                                                  ) [JustExpr]
+                                                                ) [RelationBrackets]
+                                                              ) [CondFact]
+                                                            ) [ConditionFact]
+                                                          ) [ConditionJustTerm]
+                                                          PrintStatement(
+                                                            JustExpr(
+                                                              Term(
+                                                                FactorNumber(
+                                                                 1
+                                                                ) [FactorNumber]
+                                                                NoMultiplicativeList(
+                                                                ) [NoMultiplicativeList]
+                                                              ) [Term]
+                                                              NoAddOpList(
+                                                              ) [NoAddOpList]
+                                                            ) [JustExpr]
+                                                            NoNumConstAddition(
+                                                            ) [NoNumConstAddition]
+                                                          ) [PrintStatement]
+                                                          ElseState(
+                                                            PrintStatement(
+                                                              ExprMinusBeggin(
+                                                                Term(
+                                                                  FactorNumber(
+                                                                   1
+                                                                  ) [FactorNumber]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [ExprMinusBeggin]
+                                                              NoNumConstAddition(
+                                                              ) [NoNumConstAddition]
+                                                            ) [PrintStatement]
+                                                          ) [ElseState]
+                                                        ) [IfStatement]
+                                                        NoElseStatement(
+                                                        ) [NoElseStatement]
+                                                      ) [IfStatement]
+                                                    ) [StatementList]
+                                                    DesigStatement(
+                                                      DesignatorStatement(
+                                                        DesignatorIdent(
+                                                         a
+                                                        ) [DesignatorIdent]
+                                                        AssListAssOpExpr(
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          JustExpr(
+                                                            Term(
+                                                              FactorNumber(
+                                                               2
+                                                              ) [FactorNumber]
+                                                              NoMultiplicativeList(
+                                                              ) [NoMultiplicativeList]
+                                                            ) [Term]
+                                                            NoAddOpList(
+                                                            ) [NoAddOpList]
+                                                          ) [JustExpr]
+                                                        ) [AssListAssOpExpr]
+                                                      ) [DesignatorStatement]
+                                                    ) [DesigStatement]
+                                                  ) [StatementList]
+                                                  DesigStatement(
+                                                    DesignatorStatement(
+                                                      DesignatorIdent(
+                                                       niz
+                                                      ) [DesignatorIdent]
+                                                      AssListAssOpExpr(
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        JustExpr(
+                                                          Term(
+                                                            FactorNewTypeOneBracket(
+                                                              Type(
+                                                               int
+                                                              ) [Type]
+                                                              JustExpr(
+                                                                Term(
+                                                                  FactorNumber(
+                                                                   3
+                                                                  ) [FactorNumber]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [JustExpr]
+                                                            ) [FactorNewTypeOneBracket]
+                                                            NoMultiplicativeList(
+                                                            ) [NoMultiplicativeList]
+                                                          ) [Term]
+                                                          NoAddOpList(
+                                                          ) [NoAddOpList]
+                                                        ) [JustExpr]
+                                                      ) [AssListAssOpExpr]
+                                                    ) [DesignatorStatement]
+                                                  ) [DesigStatement]
+                                                ) [StatementList]
+                                                DesigStatement(
+                                                  DesignatorStatement(
+                                                    DesignatorBracketExpr(
+                                                      DesignatorIdent(
+                                                       niz
+                                                      ) [DesignatorIdent]
+                                                      JustExpr(
+                                                        Term(
+                                                          FactorNumber(
+                                                           0
+                                                          ) [FactorNumber]
+                                                          NoMultiplicativeList(
+                                                          ) [NoMultiplicativeList]
+                                                        ) [Term]
+                                                        NoAddOpList(
+                                                        ) [NoAddOpList]
+                                                      ) [JustExpr]
+                                                    ) [DesignatorBracketExpr]
+                                                    AssListAssOpExpr(
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      JustExpr(
+                                                        Term(
+                                                          FactorNumber(
+                                                           1
+                                                          ) [FactorNumber]
+                                                          MultiplicativeList(
+                                                            NoMultiplicativeList(
+                                                            ) [NoMultiplicativeList]
+                                                            OpMul(
+                                                            ) [OpMul]
+                                                            FactorDesign(
+                                                              DesignatorIdent(
+                                                               a
+                                                              ) [DesignatorIdent]
+                                                              NoParenActParams(
+                                                              ) [NoParenActParams]
+                                                            ) [FactorDesign]
+                                                          ) [MultiplicativeList]
+                                                        ) [Term]
+                                                        NoAddOpList(
+                                                        ) [NoAddOpList]
+                                                      ) [JustExpr]
+                                                    ) [AssListAssOpExpr]
+                                                  ) [DesignatorStatement]
+                                                ) [DesigStatement]
+                                              ) [StatementList]
+                                              DesigStatement(
+                                                DesignatorStatement(
+                                                  DesignatorBracketExpr(
+                                                    DesignatorIdent(
+                                                     niz
+                                                    ) [DesignatorIdent]
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorNumber(
+                                                         1
+                                                        ) [FactorNumber]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                  ) [DesignatorBracketExpr]
+                                                  AssListAssOpExpr(
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorNumber(
+                                                         2
+                                                        ) [FactorNumber]
+                                                        MultiplicativeList(
+                                                          NoMultiplicativeList(
+                                                          ) [NoMultiplicativeList]
+                                                          OpMul(
+                                                          ) [OpMul]
+                                                          FactorDesign(
+                                                            DesignatorIdent(
+                                                             a
+                                                            ) [DesignatorIdent]
+                                                            NoParenActParams(
+                                                            ) [NoParenActParams]
+                                                          ) [FactorDesign]
+                                                        ) [MultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                  ) [AssListAssOpExpr]
+                                                ) [DesignatorStatement]
+                                              ) [DesigStatement]
+                                            ) [StatementList]
+                                            DesigStatement(
+                                              DesignatorStatement(
+                                                DesignatorBracketExpr(
+                                                  DesignatorIdent(
+                                                   niz
+                                                  ) [DesignatorIdent]
+                                                  JustExpr(
+                                                    Term(
+                                                      FactorNumber(
+                                                       2
+                                                      ) [FactorNumber]
+                                                      NoMultiplicativeList(
+                                                      ) [NoMultiplicativeList]
+                                                    ) [Term]
+                                                    NoAddOpList(
+                                                    ) [NoAddOpList]
+                                                  ) [JustExpr]
+                                                ) [DesignatorBracketExpr]
+                                                AssListAssOpExpr(
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  JustExpr(
+                                                    Term(
+                                                      FactorDesign(
+                                                        DesignatorIdent(
+                                                         sum
+                                                        ) [DesignatorIdent]
+                                                        ParenActParams(
+                                                          ActParmList(
+                                                            ActParsComma(
+                                                              ActParsExpr(
+                                                                JustExpr(
+                                                                  Term(
+                                                                    FactorDesign(
+                                                                      DesignatorBracketExpr(
+                                                                        DesignatorIdent(
+                                                                         niz
+                                                                        ) [DesignatorIdent]
+                                                                        JustExpr(
+                                                                          Term(
+                                                                            FactorNumber(
+                                                                             1
+                                                                            ) [FactorNumber]
+                                                                            NoMultiplicativeList(
+                                                                            ) [NoMultiplicativeList]
+                                                                          ) [Term]
+                                                                          NoAddOpList(
+                                                                          ) [NoAddOpList]
+                                                                        ) [JustExpr]
+                                                                      ) [DesignatorBracketExpr]
+                                                                      NoParenActParams(
+                                                                      ) [NoParenActParams]
+                                                                    ) [FactorDesign]
+                                                                    NoMultiplicativeList(
+                                                                    ) [NoMultiplicativeList]
+                                                                  ) [Term]
+                                                                  NoAddOpList(
+                                                                  ) [NoAddOpList]
+                                                                ) [JustExpr]
+                                                              ) [ActParsExpr]
+                                                              JustExpr(
+                                                                Term(
+                                                                  FactorDesign(
+                                                                    DesignatorBracketExpr(
+                                                                      DesignatorIdent(
+                                                                       niz
+                                                                      ) [DesignatorIdent]
+                                                                      JustExpr(
+                                                                        Term(
+                                                                          FactorNumber(
+                                                                           0
+                                                                          ) [FactorNumber]
+                                                                          NoMultiplicativeList(
+                                                                          ) [NoMultiplicativeList]
+                                                                        ) [Term]
+                                                                        NoAddOpList(
+                                                                        ) [NoAddOpList]
+                                                                      ) [JustExpr]
+                                                                    ) [DesignatorBracketExpr]
+                                                                    NoParenActParams(
+                                                                    ) [NoParenActParams]
+                                                                  ) [FactorDesign]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [JustExpr]
+                                                            ) [ActParsComma]
+                                                          ) [ActParmList]
+                                                        ) [ParenActParams]
+                                                      ) [FactorDesign]
+                                                      MultiplicativeList(
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                        OpMul(
+                                                        ) [OpMul]
+                                                        FactorDesign(
+                                                          DesignatorIdent(
+                                                           a
+                                                          ) [DesignatorIdent]
+                                                          NoParenActParams(
+                                                          ) [NoParenActParams]
+                                                        ) [FactorDesign]
+                                                      ) [MultiplicativeList]
+                                                    ) [Term]
+                                                    PlusOpList(
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                      Term(
+                                                        FactorNumber(
+                                                         1
+                                                        ) [FactorNumber]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                    ) [PlusOpList]
+                                                  ) [JustExpr]
+                                                ) [AssListAssOpExpr]
+                                              ) [DesignatorStatement]
+                                            ) [DesigStatement]
+                                          ) [StatementList]
+                                          IfStatement(
+                                            ConditionOrTerm(
+                                              ConditionJustTerm(
+                                                ConditionFact(
+                                                  CondFact(
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorDesign(
+                                                          DesignatorIdent(
+                                                           verify
+                                                          ) [DesignatorIdent]
+                                                          ParenActParams(
+                                                            NoActParams(
+                                                            ) [NoActParams]
+                                                          ) [ParenActParams]
+                                                        ) [FactorDesign]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                    NoRelationBrackets(
+                                                    ) [NoRelationBrackets]
+                                                  ) [CondFact]
+                                                ) [ConditionFact]
+                                              ) [ConditionJustTerm]
+                                              ConditionFact(
+                                                CondFact(
+                                                  JustExpr(
+                                                    Term(
+                                                      FactorDesign(
+                                                        DesignatorBracketExpr(
+                                                          DesignatorIdent(
+                                                           niz
+                                                          ) [DesignatorIdent]
+                                                          JustExpr(
+                                                            Term(
+                                                              FactorNumber(
+                                                               2
+                                                              ) [FactorNumber]
+                                                              NoMultiplicativeList(
+                                                              ) [NoMultiplicativeList]
+                                                            ) [Term]
+                                                            NoAddOpList(
+                                                            ) [NoAddOpList]
+                                                          ) [JustExpr]
+                                                        ) [DesignatorBracketExpr]
+                                                        NoParenActParams(
+                                                        ) [NoParenActParams]
+                                                      ) [FactorDesign]
+                                                      NoMultiplicativeList(
+                                                      ) [NoMultiplicativeList]
+                                                    ) [Term]
+                                                    NoAddOpList(
+                                                    ) [NoAddOpList]
+                                                  ) [JustExpr]
+                                                  RelationBrackets(
+                                                    RelDbEq(
+                                                    ) [RelDbEq]
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorNumber(
+                                                         4
+                                                        ) [FactorNumber]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                  ) [RelationBrackets]
+                                                ) [CondFact]
+                                              ) [ConditionFact]
+                                            ) [ConditionOrTerm]
+                                            PrintStatement(
+                                              JustExpr(
+                                                Term(
+                                                  FactorDesign(
+                                                    DesignatorIdent(
+                                                     ord
+                                                    ) [DesignatorIdent]
+                                                    ParenActParams(
+                                                      ActParmList(
+                                                        ActParsExpr(
+                                                          JustExpr(
+                                                            Term(
+                                                              FactorChar(
+                                                               A
+                                                              ) [FactorChar]
+                                                              NoMultiplicativeList(
+                                                              ) [NoMultiplicativeList]
+                                                            ) [Term]
+                                                            NoAddOpList(
+                                                            ) [NoAddOpList]
+                                                          ) [JustExpr]
+                                                        ) [ActParsExpr]
+                                                      ) [ActParmList]
+                                                    ) [ParenActParams]
+                                                  ) [FactorDesign]
+                                                  NoMultiplicativeList(
+                                                  ) [NoMultiplicativeList]
+                                                ) [Term]
+                                                NoAddOpList(
+                                                ) [NoAddOpList]
+                                              ) [JustExpr]
+                                              NoNumConstAddition(
+                                              ) [NoNumConstAddition]
+                                            ) [PrintStatement]
+                                            ElseState(
+                                              PrintStatement(
+                                                JustExpr(
+                                                  Term(
+                                                    FactorDesign(
+                                                      DesignatorIdent(
+                                                       ord
+                                                      ) [DesignatorIdent]
+                                                      ParenActParams(
+                                                        ActParmList(
+                                                          ActParsExpr(
+                                                            JustExpr(
+                                                              Term(
+                                                                FactorChar(
+                                                                 a
+                                                                ) [FactorChar]
+                                                                NoMultiplicativeList(
+                                                                ) [NoMultiplicativeList]
+                                                              ) [Term]
+                                                              NoAddOpList(
+                                                              ) [NoAddOpList]
+                                                            ) [JustExpr]
+                                                          ) [ActParsExpr]
+                                                        ) [ActParmList]
+                                                      ) [ParenActParams]
+                                                    ) [FactorDesign]
+                                                    NoMultiplicativeList(
+                                                    ) [NoMultiplicativeList]
+                                                  ) [Term]
+                                                  NoAddOpList(
+                                                  ) [NoAddOpList]
+                                                ) [JustExpr]
+                                                NoNumConstAddition(
+                                                ) [NoNumConstAddition]
+                                              ) [PrintStatement]
+                                            ) [ElseState]
+                                          ) [IfStatement]
+                                        ) [StatementList]
+                                        PrintStatement(
+                                          JustExpr(
+                                            Term(
+                                              FactorDesign(
+                                                DesignatorIdent(
+                                                 eol
+                                                ) [DesignatorIdent]
+                                                NoParenActParams(
+                                                ) [NoParenActParams]
+                                              ) [FactorDesign]
+                                              NoMultiplicativeList(
+                                              ) [NoMultiplicativeList]
+                                            ) [Term]
+                                            NoAddOpList(
+                                            ) [NoAddOpList]
+                                          ) [JustExpr]
+                                          NoNumConstAddition(
+                                          ) [NoNumConstAddition]
+                                        ) [PrintStatement]
+                                      ) [StatementList]
+                                      DesigStatement(
+                                        DesignatorStatement(
+                                          DesignatorIdent(
+                                           i
+                                          ) [DesignatorIdent]
+                                          AssListAssOpExpr(
+                                            Assignop(
+                                            ) [Assignop]
+                                            JustExpr(
+                                              Term(
+                                                FactorNumber(
+                                                 0
+                                                ) [FactorNumber]
+                                                NoMultiplicativeList(
+                                                ) [NoMultiplicativeList]
+                                              ) [Term]
+                                              NoAddOpList(
+                                              ) [NoAddOpList]
+                                            ) [JustExpr]
+                                          ) [AssListAssOpExpr]
+                                        ) [DesignatorStatement]
+                                      ) [DesigStatement]
+                                    ) [StatementList]
+                                    WhileStatement(
+                                      ConditionJustTerm(
+                                        ConditionFact(
+                                          CondFact(
+                                            JustExpr(
+                                              Term(
+                                                FactorDesign(
+                                                  DesignatorIdent(
+                                                   i
+                                                  ) [DesignatorIdent]
+                                                  NoParenActParams(
+                                                  ) [NoParenActParams]
+                                                ) [FactorDesign]
+                                                NoMultiplicativeList(
+                                                ) [NoMultiplicativeList]
+                                              ) [Term]
+                                              NoAddOpList(
+                                              ) [NoAddOpList]
+                                            ) [JustExpr]
+                                            RelationBrackets(
+                                              RelLess(
+                                              ) [RelLess]
+                                              JustExpr(
+                                                Term(
+                                                  FactorNumber(
+                                                   10
+                                                  ) [FactorNumber]
+                                                  NoMultiplicativeList(
+                                                  ) [NoMultiplicativeList]
+                                                ) [Term]
+                                                NoAddOpList(
+                                                ) [NoAddOpList]
+                                              ) [JustExpr]
+                                            ) [RelationBrackets]
+                                          ) [CondFact]
+                                        ) [ConditionFact]
+                                      ) [ConditionJustTerm]
+                                      BraceStatements(
+                                        StatementList(
+                                          StatementList(
+                                            StatementList(
+                                              NoStatements(
+                                              ) [NoStatements]
+                                              IfStatement(
+                                                ConditionJustTerm(
+                                                  ConditionFact(
+                                                    CondFact(
+                                                      JustExpr(
+                                                        Term(
+                                                          FactorDesign(
+                                                            DesignatorIdent(
+                                                             i
+                                                            ) [DesignatorIdent]
+                                                            NoParenActParams(
+                                                            ) [NoParenActParams]
+                                                          ) [FactorDesign]
+                                                          NoMultiplicativeList(
+                                                          ) [NoMultiplicativeList]
+                                                        ) [Term]
+                                                        NoAddOpList(
+                                                        ) [NoAddOpList]
+                                                      ) [JustExpr]
+                                                      RelationBrackets(
+                                                        RelDbEq(
+                                                        ) [RelDbEq]
+                                                        JustExpr(
+                                                          Term(
+                                                            FactorNumber(
+                                                             3
+                                                            ) [FactorNumber]
+                                                            NoMultiplicativeList(
+                                                            ) [NoMultiplicativeList]
+                                                          ) [Term]
+                                                          NoAddOpList(
+                                                          ) [NoAddOpList]
+                                                        ) [JustExpr]
+                                                      ) [RelationBrackets]
+                                                    ) [CondFact]
+                                                  ) [ConditionFact]
+                                                ) [ConditionJustTerm]
+                                                BraceStatements(
+                                                  StatementList(
+                                                    StatementList(
+                                                      NoStatements(
+                                                      ) [NoStatements]
+                                                      DesigStatement(
+                                                        DesignatorStatement(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                          AssListDoublePlus(
+                                                          ) [AssListDoublePlus]
+                                                        ) [DesignatorStatement]
+                                                      ) [DesigStatement]
+                                                    ) [StatementList]
+                                                    ContinueStatement(
+                                                    ) [ContinueStatement]
+                                                  ) [StatementList]
+                                                ) [BraceStatements]
+                                                NoElseStatement(
+                                                ) [NoElseStatement]
+                                              ) [IfStatement]
+                                            ) [StatementList]
+                                            IfStatement(
+                                              ConditionJustTerm(
+                                                ConditionFact(
+                                                  CondFact(
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorDesign(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                          NoParenActParams(
+                                                          ) [NoParenActParams]
+                                                        ) [FactorDesign]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                    RelationBrackets(
+                                                      RelDbEq(
+                                                      ) [RelDbEq]
+                                                      JustExpr(
+                                                        Term(
+                                                          FactorNumber(
+                                                           4
+                                                          ) [FactorNumber]
+                                                          NoMultiplicativeList(
+                                                          ) [NoMultiplicativeList]
+                                                        ) [Term]
+                                                        NoAddOpList(
+                                                        ) [NoAddOpList]
+                                                      ) [JustExpr]
+                                                    ) [RelationBrackets]
+                                                  ) [CondFact]
+                                                ) [ConditionFact]
+                                              ) [ConditionJustTerm]
+                                              BreakStatement(
+                                              ) [BreakStatement]
+                                              NoElseStatement(
+                                              ) [NoElseStatement]
+                                            ) [IfStatement]
+                                          ) [StatementList]
+                                          DesigStatement(
+                                            DesignatorStatement(
+                                              DesignatorIdent(
+                                               i
+                                              ) [DesignatorIdent]
+                                              AssListAssOpExpr(
+                                                Assignop(
+                                                ) [Assignop]
+                                                JustExpr(
+                                                  Term(
+                                                    FactorDesign(
+                                                      DesignatorIdent(
+                                                       inkrement
+                                                      ) [DesignatorIdent]
+                                                      ParenActParams(
+                                                        ActParmList(
+                                                          ActParsComma(
+                                                            ActParsExpr(
+                                                              JustExpr(
+                                                                Term(
+                                                                  FactorDesign(
+                                                                    DesignatorIdent(
+                                                                     i
+                                                                    ) [DesignatorIdent]
+                                                                    NoParenActParams(
+                                                                    ) [NoParenActParams]
+                                                                  ) [FactorDesign]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [JustExpr]
+                                                            ) [ActParsExpr]
+                                                            JustExpr(
+                                                              Term(
+                                                                FactorNumber(
+                                                                 1
+                                                                ) [FactorNumber]
+                                                                NoMultiplicativeList(
+                                                                ) [NoMultiplicativeList]
+                                                              ) [Term]
+                                                              NoAddOpList(
+                                                              ) [NoAddOpList]
+                                                            ) [JustExpr]
+                                                          ) [ActParsComma]
+                                                        ) [ActParmList]
+                                                      ) [ParenActParams]
+                                                    ) [FactorDesign]
+                                                    NoMultiplicativeList(
+                                                    ) [NoMultiplicativeList]
+                                                  ) [Term]
+                                                  NoAddOpList(
+                                                  ) [NoAddOpList]
+                                                ) [JustExpr]
+                                              ) [AssListAssOpExpr]
+                                            ) [DesignatorStatement]
+                                          ) [DesigStatement]
+                                        ) [StatementList]
+                                      ) [BraceStatements]
+                                    ) [WhileStatement]
+                                  ) [StatementList]
+                                  IfStatement(
+                                    ConditionJustTerm(
+                                      ConditionAndFact(
+                                        ConditionFact(
+                                          CondFact(
+                                            JustExpr(
+                                              Term(
+                                                FactorDesign(
+                                                  DesignatorIdent(
+                                                   i
+                                                  ) [DesignatorIdent]
+                                                  NoParenActParams(
+                                                  ) [NoParenActParams]
+                                                ) [FactorDesign]
+                                                NoMultiplicativeList(
+                                                ) [NoMultiplicativeList]
+                                              ) [Term]
+                                              NoAddOpList(
+                                              ) [NoAddOpList]
+                                            ) [JustExpr]
+                                            RelationBrackets(
+                                              RelDbEq(
+                                              ) [RelDbEq]
+                                              JustExpr(
+                                                Term(
+                                                  FactorNumber(
+                                                   3
+                                                  ) [FactorNumber]
+                                                  NoMultiplicativeList(
+                                                  ) [NoMultiplicativeList]
+                                                ) [Term]
+                                                NoAddOpList(
+                                                ) [NoAddOpList]
+                                              ) [JustExpr]
+                                            ) [RelationBrackets]
+                                          ) [CondFact]
+                                        ) [ConditionFact]
+                                        CondFact(
+                                          JustExpr(
+                                            Term(
+                                              FactorDesign(
+                                                DesignatorIdent(
+                                                 verify
+                                                ) [DesignatorIdent]
+                                                ParenActParams(
+                                                  NoActParams(
+                                                  ) [NoActParams]
+                                                ) [ParenActParams]
+                                              ) [FactorDesign]
+                                              NoMultiplicativeList(
+                                              ) [NoMultiplicativeList]
+                                            ) [Term]
+                                            NoAddOpList(
+                                            ) [NoAddOpList]
+                                          ) [JustExpr]
+                                          NoRelationBrackets(
+                                          ) [NoRelationBrackets]
+                                        ) [CondFact]
+                                      ) [ConditionAndFact]
+                                    ) [ConditionJustTerm]
+                                    PrintStatement(
+                                      ExprMinusBeggin(
+                                        Term(
+                                          FactorNumber(
+                                           4
+                                          ) [FactorNumber]
+                                          NoMultiplicativeList(
+                                          ) [NoMultiplicativeList]
+                                        ) [Term]
+                                        NoAddOpList(
+                                        ) [NoAddOpList]
+                                      ) [ExprMinusBeggin]
+                                      NoNumConstAddition(
+                                      ) [NoNumConstAddition]
+                                    ) [PrintStatement]
+                                    ElseState(
+                                      PrintStatement(
+                                        JustExpr(
+                                          Term(
+                                            FactorNumber(
+                                             4
+                                            ) [FactorNumber]
+                                            NoMultiplicativeList(
+                                            ) [NoMultiplicativeList]
+                                          ) [Term]
+                                          NoAddOpList(
+                                          ) [NoAddOpList]
+                                        ) [JustExpr]
+                                        NoNumConstAddition(
+                                        ) [NoNumConstAddition]
+                                      ) [PrintStatement]
+                                    ) [ElseState]
+                                  ) [IfStatement]
+                                ) [StatementList]
+                                ReadStatement(
+                                  DesignatorBracketExpr(
+                                    DesignatorIdent(
+                                     niz
+                                    ) [DesignatorIdent]
+                                    JustExpr(
+                                      Term(
+                                        FactorNumber(
+                                         0
+                                        ) [FactorNumber]
+                                        NoMultiplicativeList(
+                                        ) [NoMultiplicativeList]
+                                      ) [Term]
+                                      NoAddOpList(
+                                      ) [NoAddOpList]
+                                    ) [JustExpr]
+                                  ) [DesignatorBracketExpr]
+                                ) [ReadStatement]
+                              ) [StatementList]
+                              ReadStatement(
+                                DesignatorBracketExpr(
+                                  DesignatorIdent(
+                                   niz
+                                  ) [DesignatorIdent]
+                                  JustExpr(
+                                    Term(
+                                      FactorNumber(
+                                       1
+                                      ) [FactorNumber]
+                                      NoMultiplicativeList(
+                                      ) [NoMultiplicativeList]
+                                    ) [Term]
+                                    NoAddOpList(
+                                    ) [NoAddOpList]
+                                  ) [JustExpr]
+                                ) [DesignatorBracketExpr]
+                              ) [ReadStatement]
+                            ) [StatementList]
+                            ReadStatement(
+                              DesignatorBracketExpr(
+                                DesignatorIdent(
+                                 niz
+                                ) [DesignatorIdent]
+                                JustExpr(
+                                  Term(
+                                    FactorNumber(
+                                     2
+                                    ) [FactorNumber]
+                                    NoMultiplicativeList(
+                                    ) [NoMultiplicativeList]
+                                  ) [Term]
+                                  NoAddOpList(
+                                  ) [NoAddOpList]
+                                ) [JustExpr]
+                              ) [DesignatorBracketExpr]
+                            ) [ReadStatement]
+                          ) [StatementList]
+                          PrintStatement(
+                            JustExpr(
+                              Term(
+                                FactorDesign(
+                                  DesignatorIdent(
+                                   eol
+                                  ) [DesignatorIdent]
+                                  NoParenActParams(
+                                  ) [NoParenActParams]
+                                ) [FactorDesign]
+                                NoMultiplicativeList(
+                                ) [NoMultiplicativeList]
+                              ) [Term]
+                              NoAddOpList(
+                              ) [NoAddOpList]
+                            ) [JustExpr]
+                            NoNumConstAddition(
+                            ) [NoNumConstAddition]
+                          ) [PrintStatement]
+                        ) [StatementList]
+                        PrintStatement(
+                          JustExpr(
+                            Term(
+                              FactorDesign(
+                                DesignatorIdent(
+                                 sum
+                                ) [DesignatorIdent]
+                                ParenActParams(
+                                  ActParmList(
+                                    ActParsComma(
+                                      ActParsExpr(
+                                        JustExpr(
+                                          Term(
+                                            FactorDesign(
+                                              DesignatorIdent(
+                                               sum
+                                              ) [DesignatorIdent]
+                                              ParenActParams(
+                                                ActParmList(
+                                                  ActParsComma(
+                                                    ActParsExpr(
+                                                      JustExpr(
+                                                        Term(
+                                                          FactorDesign(
+                                                            DesignatorBracketExpr(
+                                                              DesignatorIdent(
+                                                               niz
+                                                              ) [DesignatorIdent]
+                                                              JustExpr(
+                                                                Term(
+                                                                  FactorNumber(
+                                                                   0
+                                                                  ) [FactorNumber]
+                                                                  NoMultiplicativeList(
+                                                                  ) [NoMultiplicativeList]
+                                                                ) [Term]
+                                                                NoAddOpList(
+                                                                ) [NoAddOpList]
+                                                              ) [JustExpr]
+                                                            ) [DesignatorBracketExpr]
+                                                            NoParenActParams(
+                                                            ) [NoParenActParams]
+                                                          ) [FactorDesign]
+                                                          NoMultiplicativeList(
+                                                          ) [NoMultiplicativeList]
+                                                        ) [Term]
+                                                        NoAddOpList(
+                                                        ) [NoAddOpList]
+                                                      ) [JustExpr]
+                                                    ) [ActParsExpr]
+                                                    JustExpr(
+                                                      Term(
+                                                        FactorDesign(
+                                                          DesignatorBracketExpr(
+                                                            DesignatorIdent(
+                                                             niz
+                                                            ) [DesignatorIdent]
+                                                            JustExpr(
+                                                              Term(
+                                                                FactorNumber(
+                                                                 1
+                                                                ) [FactorNumber]
+                                                                NoMultiplicativeList(
+                                                                ) [NoMultiplicativeList]
+                                                              ) [Term]
+                                                              NoAddOpList(
+                                                              ) [NoAddOpList]
+                                                            ) [JustExpr]
+                                                          ) [DesignatorBracketExpr]
+                                                          NoParenActParams(
+                                                          ) [NoParenActParams]
+                                                        ) [FactorDesign]
+                                                        NoMultiplicativeList(
+                                                        ) [NoMultiplicativeList]
+                                                      ) [Term]
+                                                      NoAddOpList(
+                                                      ) [NoAddOpList]
+                                                    ) [JustExpr]
+                                                  ) [ActParsComma]
+                                                ) [ActParmList]
+                                              ) [ParenActParams]
+                                            ) [FactorDesign]
+                                            NoMultiplicativeList(
+                                            ) [NoMultiplicativeList]
+                                          ) [Term]
+                                          NoAddOpList(
+                                          ) [NoAddOpList]
+                                        ) [JustExpr]
+                                      ) [ActParsExpr]
+                                      JustExpr(
+                                        Term(
+                                          FactorDesign(
+                                            DesignatorBracketExpr(
+                                              DesignatorIdent(
+                                               niz
+                                              ) [DesignatorIdent]
+                                              JustExpr(
+                                                Term(
+                                                  FactorNumber(
+                                                   2
+                                                  ) [FactorNumber]
+                                                  NoMultiplicativeList(
+                                                  ) [NoMultiplicativeList]
+                                                ) [Term]
+                                                NoAddOpList(
+                                                ) [NoAddOpList]
+                                              ) [JustExpr]
+                                            ) [DesignatorBracketExpr]
+                                            NoParenActParams(
+                                            ) [NoParenActParams]
+                                          ) [FactorDesign]
+                                          NoMultiplicativeList(
+                                          ) [NoMultiplicativeList]
+                                        ) [Term]
+                                        NoAddOpList(
+                                        ) [NoAddOpList]
+                                      ) [JustExpr]
+                                    ) [ActParsComma]
+                                  ) [ActParmList]
+                                ) [ParenActParams]
+                              ) [FactorDesign]
+                              NoMultiplicativeList(
+                              ) [NoMultiplicativeList]
+                            ) [Term]
+                            NoAddOpList(
+                            ) [NoAddOpList]
+                          ) [JustExpr]
+                          NoNumConstAddition(
+                          ) [NoNumConstAddition]
+                        ) [PrintStatement]
+                      ) [StatementList]
+                      PrintStatement(
+                        JustExpr(
+                          Term(
+                            FactorDesign(
+                              DesignatorIdent(
+                               eol
+                              ) [DesignatorIdent]
+                              NoParenActParams(
+                              ) [NoParenActParams]
+                            ) [FactorDesign]
+                            NoMultiplicativeList(
+                            ) [NoMultiplicativeList]
+                          ) [Term]
+                          NoAddOpList(
+                          ) [NoAddOpList]
+                        ) [JustExpr]
+                        NoNumConstAddition(
+                        ) [NoNumConstAddition]
+                      ) [PrintStatement]
+                    ) [StatementList]
+                    PrintStatement(
+                      JustExpr(
+                        Term(
+                          FactorDesign(
+                            DesignatorIdent(
+                             inkrement
+                            ) [DesignatorIdent]
+                            ParenActParams(
+                              ActParmList(
+                                ActParsComma(
+                                  ActParsExpr(
+                                    JustExpr(
+                                      Term(
+                                        FactorDesign(
+                                          DesignatorBracketExpr(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            JustExpr(
+                                              Term(
+                                                FactorNumber(
+                                                 2
+                                                ) [FactorNumber]
+                                                NoMultiplicativeList(
+                                                ) [NoMultiplicativeList]
+                                              ) [Term]
+                                              NoAddOpList(
+                                              ) [NoAddOpList]
+                                            ) [JustExpr]
+                                          ) [DesignatorBracketExpr]
+                                          NoParenActParams(
+                                          ) [NoParenActParams]
+                                        ) [FactorDesign]
+                                        NoMultiplicativeList(
+                                        ) [NoMultiplicativeList]
+                                      ) [Term]
+                                      NoAddOpList(
+                                      ) [NoAddOpList]
+                                    ) [JustExpr]
+                                  ) [ActParsExpr]
+                                  JustExpr(
+                                    Term(
+                                      FactorNumber(
+                                       2
+                                      ) [FactorNumber]
+                                      NoMultiplicativeList(
+                                      ) [NoMultiplicativeList]
+                                    ) [Term]
+                                    NoAddOpList(
+                                    ) [NoAddOpList]
+                                  ) [JustExpr]
+                                ) [ActParsComma]
+                              ) [ActParmList]
+                            ) [ParenActParams]
+                          ) [FactorDesign]
+                          NoMultiplicativeList(
+                          ) [NoMultiplicativeList]
+                        ) [Term]
+                        NoAddOpList(
+                        ) [NoAddOpList]
+                      ) [JustExpr]
+                      NoNumConstAddition(
+                      ) [NoNumConstAddition]
+                    ) [PrintStatement]
+                  ) [StatementList]
+                  DesigStatement(
+                    DesignatorStatement(
+                      DesignatorIdent(
+                       a
+                      ) [DesignatorIdent]
+                      AssListAssOpExpr(
+                        Assignop(
+                        ) [Assignop]
+                        JustExpr(
+                          Term(
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                            NoMultiplicativeList(
+                            ) [NoMultiplicativeList]
+                          ) [Term]
+                          NoAddOpList(
+                          ) [NoAddOpList]
+                        ) [JustExpr]
+                      ) [AssListAssOpExpr]
+                    ) [DesignatorStatement]
+                  ) [DesigStatement]
+                ) [StatementList]
+                DesigStatement(
+                  DesignatorStatement(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                    AssListAssOpExpr(
+                      Assignop(
+                      ) [Assignop]
+                      JustExpr(
+                        Term(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                          NoMultiplicativeList(
+                          ) [NoMultiplicativeList]
+                        ) [Term]
+                        NoAddOpList(
+                        ) [NoAddOpList]
+                      ) [JustExpr]
+                    ) [AssListAssOpExpr]
+                  ) [DesignatorStatement]
+                ) [DesigStatement]
+              ) [StatementList]
+              WhileStatement(
+                ConditionJustTerm(
+                  ConditionFact(
+                    CondFact(
+                      JustExpr(
+                        Term(
+                          FactorDesign(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                            NoParenActParams(
+                            ) [NoParenActParams]
+                          ) [FactorDesign]
+                          NoMultiplicativeList(
+                          ) [NoMultiplicativeList]
+                        ) [Term]
+                        NoAddOpList(
+                        ) [NoAddOpList]
+                      ) [JustExpr]
+                      RelationBrackets(
+                        RelLess(
+                        ) [RelLess]
+                        JustExpr(
+                          Term(
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                            NoMultiplicativeList(
+                            ) [NoMultiplicativeList]
+                          ) [Term]
+                          NoAddOpList(
+                          ) [NoAddOpList]
+                        ) [JustExpr]
+                      ) [RelationBrackets]
+                    ) [CondFact]
+                  ) [ConditionFact]
+                ) [ConditionJustTerm]
+                BraceStatements(
+                  StatementList(
+                    StatementList(
+                      NoStatements(
+                      ) [NoStatements]
+                      DesigStatement(
+                        DesignatorStatement(
+                          DesignatorBracketExpr(
+                            DesignatorIdent(
+                             niz
+                            ) [DesignatorIdent]
+                            JustExpr(
+                              Term(
+                                FactorDesign(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                  NoParenActParams(
+                                  ) [NoParenActParams]
+                                ) [FactorDesign]
+                                NoMultiplicativeList(
+                                ) [NoMultiplicativeList]
+                              ) [Term]
+                              NoAddOpList(
+                              ) [NoAddOpList]
+                            ) [JustExpr]
+                          ) [DesignatorBracketExpr]
+                          AssListAssOpExpr(
+                            Assignop(
+                            ) [Assignop]
+                            JustExpr(
+                              Term(
+                                FactorDesign(
+                                  DesignatorBracketExpr(
+                                    DesignatorIdent(
+                                     niz
+                                    ) [DesignatorIdent]
+                                    JustExpr(
+                                      Term(
+                                        FactorDesign(
+                                          DesignatorIdent(
+                                           i
+                                          ) [DesignatorIdent]
+                                          NoParenActParams(
+                                          ) [NoParenActParams]
+                                        ) [FactorDesign]
+                                        NoMultiplicativeList(
+                                        ) [NoMultiplicativeList]
+                                      ) [Term]
+                                      NoAddOpList(
+                                      ) [NoAddOpList]
+                                    ) [JustExpr]
+                                  ) [DesignatorBracketExpr]
+                                  NoParenActParams(
+                                  ) [NoParenActParams]
+                                ) [FactorDesign]
+                                MultiplicativeList(
+                                  MultiplicativeList(
+                                    NoMultiplicativeList(
+                                    ) [NoMultiplicativeList]
+                                    OpMul(
+                                    ) [OpMul]
+                                    FactorNumber(
+                                     2
+                                    ) [FactorNumber]
+                                  ) [MultiplicativeList]
+                                  OpMul(
+                                  ) [OpMul]
+                                  FactorDesign(
+                                    DesignatorIdent(
+                                     a
+                                    ) [DesignatorIdent]
+                                    NoParenActParams(
+                                    ) [NoParenActParams]
+                                  ) [FactorDesign]
+                                ) [MultiplicativeList]
+                              ) [Term]
+                              NoAddOpList(
+                              ) [NoAddOpList]
+                            ) [JustExpr]
+                          ) [AssListAssOpExpr]
+                        ) [DesignatorStatement]
+                      ) [DesigStatement]
+                    ) [StatementList]
+                    DesigStatement(
+                      DesignatorStatement(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                        AssListDoublePlus(
+                        ) [AssListDoublePlus]
+                      ) [DesignatorStatement]
+                    ) [DesigStatement]
+                  ) [StatementList]
+                ) [BraceStatements]
+              ) [WhileStatement]
+            ) [StatementList]
+            MapStatement(
+              DesignatorIdent(
+               niz2
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              DesignatorIdent(
+               niz
+              ) [DesignatorIdent]
+             curr
+              JustExpr(
+                Term(
+                  FactorDesign(
+                    DesignatorIdent(
+                     curr
+                    ) [DesignatorIdent]
+                    NoParenActParams(
+                    ) [NoParenActParams]
+                  ) [FactorDesign]
+                  MultiplicativeList(
+                    NoMultiplicativeList(
+                    ) [NoMultiplicativeList]
+                    OpMul(
+                    ) [OpMul]
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [MultiplicativeList]
+                ) [Term]
+                NoAddOpList(
+                ) [NoAddOpList]
+              ) [JustExpr]
+            ) [MapStatement]
+          ) [StatementList]
+          DesigStatement(
+            DesignatorStatement(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              AssListAssOpExpr(
+                Assignop(
+                ) [Assignop]
+                JustExpr(
+                  Term(
+                    FactorNumber(
+                     0
+                    ) [FactorNumber]
+                    NoMultiplicativeList(
+                    ) [NoMultiplicativeList]
+                  ) [Term]
+                  NoAddOpList(
+                  ) [NoAddOpList]
+                ) [JustExpr]
+              ) [AssListAssOpExpr]
+            ) [DesignatorStatement]
+          ) [DesigStatement]
+        ) [StatementList]
+        WhileStatement(
+          ConditionJustTerm(
+            ConditionFact(
+              CondFact(
+                JustExpr(
+                  Term(
+                    FactorDesign(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                      NoParenActParams(
+                      ) [NoParenActParams]
+                    ) [FactorDesign]
+                    NoMultiplicativeList(
+                    ) [NoMultiplicativeList]
+                  ) [Term]
+                  NoAddOpList(
+                  ) [NoAddOpList]
+                ) [JustExpr]
+                RelationBrackets(
+                  RelLess(
+                  ) [RelLess]
+                  JustExpr(
+                    Term(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                      NoMultiplicativeList(
+                      ) [NoMultiplicativeList]
+                    ) [Term]
+                    NoAddOpList(
+                    ) [NoAddOpList]
+                  ) [JustExpr]
+                ) [RelationBrackets]
+              ) [CondFact]
+            ) [ConditionFact]
+          ) [ConditionJustTerm]
+          BraceStatements(
+            StatementList(
+              StatementList(
+                NoStatements(
+                ) [NoStatements]
+                PrintStatement(
+                  JustExpr(
+                    Term(
+                      FactorDesign(
+                        DesignatorBracketExpr(
+                          DesignatorIdent(
+                           niz2
+                          ) [DesignatorIdent]
+                          JustExpr(
+                            Term(
+                              FactorDesign(
+                                DesignatorIdent(
+                                 i
+                                ) [DesignatorIdent]
+                                NoParenActParams(
+                                ) [NoParenActParams]
+                              ) [FactorDesign]
+                              NoMultiplicativeList(
+                              ) [NoMultiplicativeList]
+                            ) [Term]
+                            NoAddOpList(
+                            ) [NoAddOpList]
+                          ) [JustExpr]
+                        ) [DesignatorBracketExpr]
+                        NoParenActParams(
+                        ) [NoParenActParams]
+                      ) [FactorDesign]
+                      NoMultiplicativeList(
+                      ) [NoMultiplicativeList]
+                    ) [Term]
+                    NoAddOpList(
+                    ) [NoAddOpList]
+                  ) [JustExpr]
+                  NoNumConstAddition(
+                  ) [NoNumConstAddition]
+                ) [PrintStatement]
+              ) [StatementList]
+              DesigStatement(
+                DesignatorStatement(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                  AssListDoublePlus(
+                  ) [AssListDoublePlus]
+                ) [DesignatorStatement]
+              ) [DesigStatement]
+            ) [StatementList]
+          ) [BraceStatements]
+        ) [WhileStatement]
+      ) [StatementList]
+    ) [MethodDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  01:31:14,962 - ===================================
+INFO  01:31:14,965 -  Print count calls = 0
+INFO  01:31:14,965 -  Deklarisanih promenljivih ima = 0

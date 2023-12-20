@@ -1,15 +1,39 @@
 // generated with ast extension for cup
 // version 0.8
-// 22/5/2023 0:41:17
+// 10/8/2023 22:20:19
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public abstract class DesignatorStatement implements SyntaxNode {
+public class DesignatorStatement implements SyntaxNode {
 
     private SyntaxNode parent;
-
     private int line;
+    private Designator Designator;
+    private AssList AssList;
+
+    public DesignatorStatement (Designator Designator, AssList AssList) {
+        this.Designator=Designator;
+        if(Designator!=null) Designator.setParent(this);
+        this.AssList=AssList;
+        if(AssList!=null) AssList.setParent(this);
+    }
+
+    public Designator getDesignator() {
+        return Designator;
+    }
+
+    public void setDesignator(Designator Designator) {
+        this.Designator=Designator;
+    }
+
+    public AssList getAssList() {
+        return AssList;
+    }
+
+    public void setAssList(AssList AssList) {
+        this.AssList=AssList;
+    }
 
     public SyntaxNode getParent() {
         return parent;
@@ -27,11 +51,46 @@ public abstract class DesignatorStatement implements SyntaxNode {
         this.line=line;
     }
 
-    public abstract void accept(Visitor visitor);
-    public abstract void childrenAccept(Visitor visitor);
-    public abstract void traverseTopDown(Visitor visitor);
-    public abstract void traverseBottomUp(Visitor visitor);
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
 
-    public String toString() { return toString(""); }
-    public abstract String toString(String tab);
+    public void childrenAccept(Visitor visitor) {
+        if(Designator!=null) Designator.accept(visitor);
+        if(AssList!=null) AssList.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(Designator!=null) Designator.traverseTopDown(visitor);
+        if(AssList!=null) AssList.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(Designator!=null) Designator.traverseBottomUp(visitor);
+        if(AssList!=null) AssList.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("DesignatorStatement(\n");
+
+        if(Designator!=null)
+            buffer.append(Designator.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(AssList!=null)
+            buffer.append(AssList.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [DesignatorStatement]");
+        return buffer.toString();
+    }
 }
